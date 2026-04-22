@@ -170,6 +170,30 @@ body {
 .modal-conteudo em { font-style: italic; color: #555; }
 .modal-conteudo strong { color: #0C447C; }
 
+.modal-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.modal-lista li {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #333;
+  padding: 5px 0 5px 14px;
+  position: relative;
+}
+
+.modal-lista li::before {
+  content: "•";
+  color: #378ADD;
+  font-weight: bold;
+  position: absolute;
+  left: 4px;
+}
+
+
+
 /* ============================================
    SELETOR DE ETAPA (SOBRE IA)
    ============================================ */
