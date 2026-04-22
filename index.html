@@ -1,0 +1,1953 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IA na educação: referenciais para aprender com IA e sobre IA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVEGAÇÃO DE TOPO -->
+<nav class="topo">
+  <div class="topo-inner">
+    <div class="topo-logo">
+      IA na educação
+      <span class="topo-sub">Referenciais para aprender com IA e sobre IA</span>
+    </div>
+    <button id="chave-com" class="chave ativa" onclick="mostrarSecao('com')">Aprender COM IA</button>
+    <button id="chave-sobre" class="chave" onclick="mostrarSecao('sobre')">Aprender SOBRE IA</button>
+    <button class="btn-sobre" onclick="abrirSobre()" aria-label="Sobre o site">ⓘ</button>
+  </div>
+</nav>
+
+<!-- SEÇÃO SOBRE IA -->
+<section id="secao-sobre" class="secao">
+
+  <div class="pagina-header">
+    <div class="etapa-header">
+      <div class="etapa-titulo">Aprender SOBRE IA</div>
+      <div class="etapa-fonte"><strong>Fonte:</strong> BRASIL. Ministério da Educação. <em>Inteligência Artificial na Educação Básica</em>. Brasília: MEC, 2026.</div>
+      <div class="etapa-fonte"><strong>Fonte:</strong> MIAO, Fengchun; SHIOHIRA, Kelly; LAO, Natalie. <em>AI competency framework for students</em>. Paris: UNESCO, 2024.</div>
+    </div>
+  </div>
+
+  <div class="etapas-seletor">
+    <button id="btn-etapa-efi" class="btn-etapa" onclick="mostrarEtapa('efi')">EF - Anos Iniciais</button>
+    <button id="btn-etapa-eff" class="btn-etapa ativa" onclick="mostrarEtapa('eff')">EF - Anos Finais</button>
+    <button id="btn-etapa-em" class="btn-etapa" onclick="mostrarEtapa('em')">Ensino Médio</button>
+  </div>
+
+  <div id="etapa-efi" class="subsecao">
+    <div class="pagina">
+<div class="cluster">
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Compreender linguagem computacional e IA (modelos, generativa/preditiva)</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Exploração de sequências, instruções passo a passo e exemplos simples de automação no cotidiano</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'efi-oc-1')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'efi-mt-1')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'efi-av-1')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="efi-oc-1">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.3.1</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Exemplificar a definição e o escopo da IA: Com base em exemplos de ferramentas de IA, ajudar os estudantes a compreender o que é e o que não é IA; orientar os estudantes a encontrar e compartilhar ferramentas exemplares nas principais categorias de tecnologias de IA e explicar suas principais funções e técnicas de maneira adequada à idade.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="efi-mt-1">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Definição e escopo baseados em exemplos de IA</div>
+          <div class="metodo-desc">Investigar e experimentar exemplos de ferramentas de IA do cotidiano dos estudantes. Com base em exemplos selecionados, ajudar os estudantes a entender o que é e o que não é IA de maneira adequada à idade — por exemplo, distinguindo um brinquedo que segue instruções fixas de um aplicativo que "aprende" padrões.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="efi-av-1">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n1" style="display:inline-block;margin-bottom:8px;">N1 Compreender</div>
+          <div class="aval-nome">3.1 Conhecimento e compreensão da IA baseada em problemas</div>
+          <div class="aval-item"><span class="aval-codigo">3.1.1</span> Descrever ou exemplificar (usando ferramentas) o que a IA é e o que ela não é; ou dar exemplos de ferramentas pessoais, escolares ou públicas que são apoiadas por IA.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Desenvolver competências lógicas e pensamento computacional</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Jogos de padrões, classificação e resolução de problemas com materiais concretos</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'efi-oc-2')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'efi-mt-2')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'efi-av-2')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="efi-oc-2">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.3.3</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Promover pensamento de mente aberta sobre IA e base interdisciplinar para a IA: Capacitar os estudantes a obter conhecimentos apropriados sobre métodos de IA e orientar os estudantes a compreender a interação entre o conhecimento sobre IA e o conhecimento em outras áreas (matemática, linguagem, estudos sociais), consolidando conhecimentos interdisciplinares.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="efi-mt-2">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Definição e escopo baseados em exemplos de IA</div>
+          <div class="metodo-desc">Usar jogos de padrões e classificação com materiais concretos (cartas, objetos, blocos) para que os estudantes pratiquem o raciocínio lógico que está na base da IA. Ajudá-los a entender que sistemas de IA também reconhecem padrões e classificam — de forma adequada à idade, conectando a experiência manual ao conceito abstrato.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="efi-av-2">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n1" style="display:inline-block;margin-bottom:8px;">N1 Compreender</div>
+          <div class="aval-nome">3.1 Conhecimento e compreensão da IA baseada em problemas</div>
+          <div class="aval-item"><span class="aval-codigo">3.1.1</span> Descrever ou exemplificar (usando ferramentas) o que a IA é e o que ela não é; ou dar exemplos de ferramentas pessoais, escolares ou públicas que são apoiadas por IA.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Projetos colaborativos humano–IA para problemas da comunidade</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Projetos simples de observação e solução de problemas locais com mediação docente</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'efi-oc-3')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'efi-mt-3')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'efi-av-3')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="efi-oc-3">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.1.1</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Promover o entendimento de que a IA é comandada por seres humanos: Com base em ferramentas de IA selecionadas, explicar aos estudantes que a IA é comandada por humanos; ajudar os estudantes a desenvolver uma compreensão gradual e integral sobre a autonomia humana. Orientar os estudantes para que entendam que a IA não pode substituir o pensamento humano ou o desenvolvimento intelectual.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.3.4</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Concretizar abordagens centradas no ser humano na elaboração e no uso da IA: Organizar reflexões sobre a IA para permitir que os estudantes compreendam seu impacto na vida, no trabalho e nas relações sociais. Destacar o papel dos seres humanos nas principais etapas do ciclo de vida da IA.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="efi-mt-3">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Compreensão a partir de cenários de interação com IA controlada por humanos</div>
+          <div class="metodo-desc">Selecionar exemplos ou cenários simples em que ferramentas de IA são usadas no cotidiano dos estudantes, mostrando como humanos e IA contribuem para tarefas-alvo. Incentivar os estudantes a reconhecer que é o ser humano quem decide quando e como usar a IA, e que a IA pode ajudar mas não substitui o papel humano.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="efi-av-3">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n1" style="display:inline-block;margin-bottom:8px;">N1 Compreender</div>
+          <div class="aval-nome">1.1 Tomada de opinião baseada em conflito</div>
+          <div class="aval-item"><span class="aval-codigo">1.1.1</span> A IA pode ser usada para apoiar decisões humanas sobre valores e questões sociais? Apontar uma fraqueza das tecnologias atuais de IA no apoio a decisões em relação a valores, questões sociais e reações emocionais pessoais.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Dados, Algoritmos e Modelos de IA, privacidade, bolhas de informação e desinformação</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Reconhecimento de padrões, formas de organização e raciocínio simbólico de forma escrita, auxiliando na alfabetização</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'efi-oc-4')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'efi-mt-4')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'efi-av-4')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="efi-oc-4">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.3.2</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Desenvolver o conhecimento conceitual sobre como a IA é treinada com base em dados e algoritmos: Promover a abstração baseada em exemplos sobre como modelos de IA são treinados usando dados. De forma adequada à idade, ajudar os estudantes a entender que a IA aprende a partir de muitos exemplos — assim como elas aprendem palavras vendo várias vezes, a IA aprende reconhecendo padrões em muitos exemplos.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="efi-mt-4">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Definição e escopo baseados em exemplos de IA</div>
+          <div class="metodo-desc">Com base em exemplos selecionados do cotidiano, ajudar os estudantes a perceber que a IA reconhece padrões — como eles reconhecem letras, números, formas. Conectar a experiência de alfabetização (reconhecer padrões visuais e sonoros) ao funcionamento básico da IA.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="efi-av-4">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO conceitualmente alinhadas ao nível de profundidade desta aprendizagem nos Anos Iniciais. As perguntas do Cap. 5 sobre dados (3.1.3, 3.1.4) são apropriadas a partir dos Anos Finais.</div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Reconhecer vieses humanos e vieses da IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Discussões mediadas sobre diferenças, privacidade e ética no uso de dados</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'efi-oc-5')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'efi-mt-5')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'efi-av-5')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="efi-oc-5">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.2.2</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Facilitar o entendimento baseado em cenários sobre os princípios éticos em torno da IA e suas implicações pessoais: Ofertar aos estudantes oportunidades para discutir casos do mundo real apropriados à idade em torno dos princípios éticos fundamentais — especialmente a não discriminação e o respeito às diferenças. Orientar os estudantes a refletir sobre como a IA deve tratar todas as pessoas de forma justa.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="efi-mt-5">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Reflexão individual ou em grupo sobre implicações pessoais dos dilemas éticos</div>
+          <div class="metodo-desc">Envolver os estudantes em discussões mediadas sobre situações apropriadas à idade em que a IA pode não reconhecer ou tratar adequadamente todas as pessoas — por exemplo, reconhecer rostos diferentes, entender diferentes sotaques ou representar diferentes famílias. Orientar os estudantes a expor suas opiniões por meio de desenhos, dramatizações ou conversas em roda.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="efi-av-5">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO conceitualmente alinhadas a esta aprendizagem em nível acessível aos Anos Iniciais. O tema é aprofundado a partir dos Anos Finais (pergunta 2.1.3).</div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Aprendizagem autorregulada com ou sem apoio de IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Planejamento simples de estudos e acompanhamento com mediação docente e sem uso de dispositivos digitais</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'efi-oc-6')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'efi-mt-6')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'efi-av-6')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="efi-oc-6">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="sem-oc">Sem OC correspondente no Nível 1 do framework UNESCO. A aprendizagem autorregulada aparece apenas a partir do Nível 2 (OC4.2.1.3) e, no MEC, especifica aprendizagem sem dispositivos digitais nos Anos Iniciais.</div>
+      </div>
+      <div class="painel painel-metodo" id="efi-mt-6">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="sem-oc">Sem abordagem UNESCO diretamente associada a esta aprendizagem nos Anos Iniciais.</div>
+      </div>
+      <div class="painel painel-aval" id="efi-av-6">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO diretamente associadas a esta aprendizagem nos Anos Iniciais.</div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Criatividade com e sem IA; limites da descarga cognitiva</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Produção criativa manual, distinguindo arte digital e não digital (com ou sem IA)</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'efi-oc-7')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'efi-mt-7')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'efi-av-7')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="efi-oc-7">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="sem-oc">Sem OC correspondente no Nível 1 do framework UNESCO. A criatividade com IA aparece apenas no Nível 3 (OC4.3.3.2, OC4.3.4.3).</div>
+      </div>
+      <div class="painel painel-metodo" id="efi-mt-7">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="sem-oc">Sem abordagem UNESCO diretamente associada a esta aprendizagem nos Anos Iniciais.</div>
+      </div>
+      <div class="painel painel-aval" id="efi-av-7">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO diretamente associadas a esta aprendizagem nos Anos Iniciais.</div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Ciclo de vida da IA: trabalho, recursos naturais e ambiente</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Noções iniciais de consumo responsável e impacto ambiental</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'efi-oc-8')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'efi-mt-8')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'efi-av-8')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="efi-oc-8">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="sem-oc">Sem OC correspondente no Nível 1 do framework UNESCO. O tema do ciclo de vida da IA e seu impacto ambiental é tratado apenas no Nível 3 (OC4.3.1.1).</div>
+      </div>
+      <div class="painel painel-metodo" id="efi-mt-8">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="sem-oc">Sem abordagem UNESCO diretamente associada a esta aprendizagem nos Anos Iniciais.</div>
+      </div>
+      <div class="painel painel-aval" id="efi-av-8">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO diretamente associadas a esta aprendizagem nos Anos Iniciais.</div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Relações de poder e desigualdades no ecossistema da IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Conversas orientadas sobre justiça, regras e convivência</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'efi-oc-9')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'efi-mt-9')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'efi-av-9')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="efi-oc-9">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="sem-oc">Sem OC correspondente no Nível 1 do framework UNESCO. O tema das desigualdades no ecossistema da IA é tratado apenas no Nível 3 (OC4.3.1.1, OC4.3.1.2).</div>
+      </div>
+      <div class="painel painel-metodo" id="efi-mt-9">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="sem-oc">Sem abordagem UNESCO diretamente associada a esta aprendizagem nos Anos Iniciais.</div>
+      </div>
+      <div class="painel painel-aval" id="efi-av-9">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO diretamente associadas a esta aprendizagem nos Anos Iniciais.</div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Direitos e deveres nos ambientes digitais</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Regras de convivência e segurança</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'efi-oc-10')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'efi-mt-10')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'efi-av-10')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="efi-oc-10">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.2.2</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Facilitar o entendimento baseado em cenários sobre os princípios éticos em torno da IA e suas implicações pessoais: Ofertar aos estudantes oportunidades para discutir casos do mundo real apropriados à idade em torno dos princípios éticos fundamentais da IA. Orientar os estudantes a construir um marco referencial básico sobre ética da IA e praticá-lo na avaliação das ferramentas usadas em suas vidas e escolas.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.2.3</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Orientar a reflexão incorporada e a internalização de princípios éticos sobre IA: Orientar os estudantes a entender as implicações dos princípios éticos sobre IA para privacidade de dados, segurança e equidade. Ofertar oportunidades para que reflitam sobre atitudes pessoais que podem ajudar a enfrentar os desafios éticos no uso de ferramentas digitais.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="efi-mt-10">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Estudos de caso sobre cenários em que existam controvérsias em torno da IA</div>
+          <div class="metodo-desc">Apresentar cenários simulados apropriados à idade — por exemplo, o que fazer quando um colega compartilha uma foto sua sem pedir; o que é privado e o que é público no uso de aplicativos. Ajudar os estudantes a construir mapas simples de regras de convivência digital.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="efi-av-10">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO conceitualmente alinhadas a esta aprendizagem em nível acessível aos Anos Iniciais. As perguntas 2.1 sobre consentimento e privacidade de dados são apropriadas a partir dos Anos Finais.</div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Responsabilidade, segurança e ética no uso da IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Regras de convivência e segurança</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'efi-oc-11')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'efi-mt-11')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'efi-av-11')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="efi-oc-11">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.2.2</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Facilitar o entendimento baseado em cenários sobre os princípios éticos em torno da IA e suas implicações pessoais: Ofertar aos estudantes oportunidades para discutir casos do mundo real apropriados à idade em torno dos princípios éticos fundamentais da IA, como "não causar dano" e respeito aos outros.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.2.3</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Orientar a reflexão incorporada e a internalização de princípios éticos sobre IA: Orientar os estudantes a desenvolver uma compreensão incorporada dos princípios éticos e ofertar oportunidades para que reflitam sobre atitudes pessoais no uso de ferramentas digitais — o que é responsável, o que é seguro, o que respeita os outros.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="efi-mt-11">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Reflexão individual ou em grupo sobre dilemas éticos</div>
+          <div class="metodo-desc">Envolver os estudantes em discussões e atividades lúdicas sobre o que é certo e errado ao usar tecnologia — por meio de rodas de conversa, dramatizações, desenhos ou histórias. Construir coletivamente regras simples de convivência digital que a turma adote.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="efi-av-11">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO conceitualmente alinhadas a esta aprendizagem em nível acessível aos Anos Iniciais. As perguntas 2.2 sobre segurança e privacidade de dados são apropriadas a partir dos Anos Finais.</div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Competências socioemocionais e autonomia frente à IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Identificação de hábitos saudáveis com tecnologia não digital</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'efi-oc-12')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'efi-mt-12')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'efi-av-12')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="efi-oc-12">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="sem-oc">Sem OC correspondente no framework UNESCO. Competências socioemocionais são específicas da Educação Básica brasileira.</div>
+      </div>
+      <div class="painel painel-metodo" id="efi-mt-12">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="sem-oc">Sem abordagem UNESCO diretamente associada a esta aprendizagem.</div>
+      </div>
+      <div class="painel painel-aval" id="efi-av-12">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO diretamente associadas a esta aprendizagem.</div>
+      </div>
+    </div>
+
+  </div>
+    </div>
+  </div>
+
+  <div id="etapa-eff" class="subsecao ativa">
+    <div class="pagina">
+<div class="cluster">
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Compreender linguagem computacional e IA (modelos, generativa/preditiva)</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Introdução a algoritmos, fluxogramas e distinção entre tipos de IA em atividades guiadas</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'eff-oc-1')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'eff-mt-1')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'eff-av-1')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="eff-oc-1">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.3.1</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Exemplificar a definição e o escopo da IA: Com base em exemplos de ferramentas de IA, ajudar os estudantes a compreender o que é e o que não é IA; orientar os estudantes a encontrar e compartilhar ferramentas exemplares nas principais categorias de tecnologias de IA e explicar suas principais funções e técnicas de maneira adequada à idade.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.3.2</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Desenvolver o conhecimento conceitual sobre como a IA é treinada com base em dados e algoritmos: Promover a abstração baseada em exemplos do conhecimento conceitual sobre como os modelos de aprendizado de máquina são treinados usando dados e algoritmos. Ajudar os estudantes a desenvolver uma compreensão adequada à idade dos três tipos de algoritmos de IA — aprendizagem supervisionada, aprendizagem não supervisionada e aprendizagem por reforço.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="eff-mt-1">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Definição e escopo baseados em exemplos de IA</div>
+          <div class="metodo-desc">Investigar e experimentar exemplos de ferramentas de IA em diferentes áreas (médica, empresarial, cotidiana). Com base em exemplos selecionados, ajudar os estudantes a entender o que é e o que não é IA e as principais categorias de tecnologias de IA adotadas no cotidiano. Orientar os estudantes a explorar as principais etapas do ciclo de vida da IA.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Aprendizagem em espiral — de exemplos a conceitos abstratos</div>
+          <div class="metodo-desc">Usar exemplos selecionados para orientar os estudantes a compreender como um modelo de aprendizado de máquina é treinado, incluindo as etapas de definição de problemas, coleta de dados, processamento, treinamento, avaliação, implantação e iteração. Apoiar os estudantes no desenvolvimento de conhecimentos adequados à idade sobre técnicas de IA.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="eff-av-1">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n1" style="display:inline-block;margin-bottom:8px;">N1 Compreender</div>
+          <div class="aval-nome">3.1 Conhecimento e compreensão da IA baseada em problemas</div>
+          <div class="aval-item"><span class="aval-codigo">3.1.1</span> Descrever ou exemplificar (usando ferramentas) o que a IA é e o que ela não é; ou dar exemplos de ferramentas pessoais, escolares ou públicas que são apoiadas por IA.</div>
+          <div class="aval-item"><span class="aval-codigo">3.1.2</span> Explicar a diferença entre IA forte e IA fraca.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Desenvolver competências lógicas e pensamento computacional</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Uso de representações simbólicas, decomposição de problemas e lógica algorítmica</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'eff-oc-2')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'eff-mt-2')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'eff-av-2')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="eff-oc-2">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.4.3</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Desenvolver habilidades para avaliar a necessidade de dados, algoritmos e recursos de computação dos sistemas de IA: Ofertar oportunidades para os estudantes desenvolverem habilidades de planejamento, avaliando a necessidade de dados, algoritmos e linguagens de programação. Estudar a viabilidade de um projeto de IA em termos dos dados disponíveis, dadas as restrições regulatórias e éticas.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="eff-mt-2">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Simulação do escopo do problema</div>
+          <div class="metodo-desc">Estimular os estudantes a pesquisar problemas em suas vidas diárias ou comunidades e identificar um problema que poderia ser solucionado com o uso de IA. Apoiar os estudantes no escopo e na definição do problema, antecipando os principais recursos — incluindo algoritmos e conjuntos de dados — e na produção de uma declaração de problema correspondente.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="eff-av-2">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n1" style="display:inline-block;margin-bottom:8px;">N1 Compreender</div>
+          <div class="aval-nome">4.1 Design thinking com base em projetos</div>
+          <div class="aval-item"><span class="aval-codigo">4.1.1</span> Explicar os motivos pelos quais um desafio específico do mundo real não deve ser resolvido por uma ferramenta de IA.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Projetos colaborativos humano–IA para problemas da comunidade</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Projetos interdisciplinares orientados (ex.: uso de dados para mapear problemas da escola)</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'eff-oc-3')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'eff-mt-3')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'eff-av-3')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="eff-oc-3">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.1.2</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Ajudar a compreender a necessidade de exercer um controle humano suficiente sobre a IA: Expor os estudantes a cenários do mundo real e fazer com que tenham experiências com as consequências da falta de supervisão humana no controle da IA. Ajudar os estudantes a compreender a necessidade de exercer intervenções humanas sobre os sistemas de IA nos níveis regulatório, institucional e individual.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.3.4</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Concretizar abordagens centradas no ser humano na elaboração e no uso da IA: Organizar reflexões sobre a IA para permitir que os estudantes compreendam seu impacto na vida, no trabalho e nas relações sociais. Destacar o papel dos seres humanos nas principais etapas do ciclo de vida da IA.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="eff-mt-3">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Compreensão a partir de cenários de interação com IA controlada por humanos</div>
+          <div class="metodo-desc">Selecionar exemplos ou cenários em que ferramentas de IA são usadas nos locais de trabalho ou na vida diária, mostrando como humanos e IA contribuem para tarefas-alvo. Incentivar os estudantes a reconhecer a contribuição que a IA pode fornecer em cenários em que as capacidades humanas têm limitações, sublinhando a importância de usar a IA para melhorar as capacidades humanas e garantir o controle humano.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="eff-av-3">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n1" style="display:inline-block;margin-bottom:8px;">N1 Compreender</div>
+          <div class="aval-nome">1.1 Tomada de opinião baseada em conflito</div>
+          <div class="aval-item"><span class="aval-codigo">1.1.1</span> A IA pode ser usada para apoiar decisões humanas sobre valores e questões sociais? Apontar uma fraqueza das tecnologias atuais de IA no apoio a decisões em relação a valores, questões sociais e reações emocionais pessoais.</div>
+          <div class="aval-item"><span class="aval-codigo">1.1.2</span> O que acontecerá se os seres humanos não assumirem a responsabilidade na conceituação e no projeto de sistemas de IA?</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Dados, Algoritmos e Modelos de IA, privacidade, bolhas de informação e desinformação</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Análise de fontes, introdução a dados, privacidade digital, tipos de aprendizagem de máquina, bolhas de informação</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'eff-oc-4')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'eff-mt-4')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'eff-av-4')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="eff-oc-4">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.3.2</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Desenvolver o conhecimento conceitual sobre como a IA é treinada com base em dados e algoritmos: Promover a abstração baseada em exemplos do conhecimento conceitual sobre como os modelos de aprendizado de máquina são treinados usando dados e algoritmos. Ajudar os estudantes a desenvolver compreensão adequada à idade dos três tipos de algoritmos de IA, incluindo a forma como os dados são adquiridos e rotulados.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.2.1</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Ilustrar os dilemas em torno da IA e identificar as principais razões por trás dos conflitos éticos: Orientar os estudantes para tomar decisões em torno de dilemas que os criadores precisam enfrentar, como aumentar a escala de coleta de dados versus proteger a propriedade dos dados, ou registrar dados privados de usuários para treinamento de modelos versus proteger sua privacidade.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="eff-mt-4">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Aprendizagem em espiral — de exemplos a conceitos abstratos</div>
+          <div class="metodo-desc">Usar exemplos selecionados para orientar os estudantes a compreender como um modelo de aprendizado de máquina é treinado, incluindo as etapas de definição de problemas, coleta de dados, processamento, treinamento, avaliação, implantação e iteração.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Reflexão individual ou em grupo sobre dilemas éticos</div>
+          <div class="metodo-desc">Envolver os estudantes em discussões sobre dilemas éticos que podem surgir com o uso da IA na vida diária — por exemplo, se modelos de linguagem devem usar dados das comunidades locais em seu treinamento, ou até que ponto a IA tem impacto ambiental negativo. Orientar os estudantes a expor suas opiniões por meio de ensaios, pôsteres, desenhos ou storyboards.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="eff-av-4">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n1" style="display:inline-block;margin-bottom:8px;">N1 Compreender</div>
+          <div class="aval-nome">3.1 Conhecimento e compreensão da IA baseada em problemas</div>
+          <div class="aval-item"><span class="aval-codigo">3.1.3</span> Descrever o conceito básico de big data; dar alguns exemplos de uso indevido de big data.</div>
+          <div class="aval-item"><span class="aval-codigo">3.1.4</span> Explicar como os modelos de aprendizagem de máquina são treinados, testados e otimizados, detalhando por que os dados desempenham um papel importante no treinamento e em outras iterações de um modelo de IA.</div>
+        </div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n1" style="display:inline-block;margin-bottom:8px;">N1 Compreender</div>
+          <div class="aval-nome">2.1 Orientação de valor ético baseada em cenários</div>
+          <div class="aval-item"><span class="aval-codigo">2.1.1</span> Você nunca deu consentimento para o uso de seus dados pessoais para treinar modelos de IA. Isso quer dizer que seus dados pessoais estão protegidos e seguros? Descrever como os dados pessoais online têm sido coletados e usados sem consentimento.</div>
+          <div class="aval-item"><span class="aval-codigo">2.1.3</span> As plataformas como YouTube e TikTok parecem entender que tipo de vídeos os usuários gostam. Identificar questões éticas em torno dos algoritmos de recomendação usados pelas plataformas de conteúdo audiovisual.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Reconhecer vieses humanos e vieses da IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Análise de exemplos de vieses em textos, imagens e vídeos gerados por IA</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'eff-oc-5')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'eff-mt-5')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'eff-av-5')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="eff-oc-5">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.2.1</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Ilustrar os dilemas em torno da IA e identificar as principais razões por trás dos conflitos éticos: Orientar os estudantes para tomar decisões em torno de dilemas que os criadores precisam enfrentar. Ajudar os estudantes a associar as perspectivas sobre esses dilemas com as razões por trás dos conflitos éticos em torno da IA, incluindo dilemas relacionados a vieses e representatividade em dados de treinamento.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="eff-mt-5">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Estudos de caso sobre controvérsias em torno da IA</div>
+          <div class="metodo-desc">Apresentar cenários do mundo real, apropriados à idade, e orientar os estudantes sobre as controvérsias que cercam as ferramentas de IA e seus usos — incluindo casos de vieses identificados em sistemas de reconhecimento de imagem, tradução automática ou recomendação. Discutir as principais razões por trás de tais conflitos éticos e ajudar os estudantes a elaborar infográficos ou mapas conceituais que ilustrem os princípios éticos fundamentais da IA.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="eff-av-5">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n1" style="display:inline-block;margin-bottom:8px;">N1 Compreender</div>
+          <div class="aval-nome">2.1 Orientação de valor ético baseada em cenários</div>
+          <div class="aval-item"><span class="aval-codigo">2.1.3</span> As plataformas como YouTube e TikTok parecem entender que tipo de vídeos os usuários gostam. Identificar questões éticas em torno dos algoritmos de recomendação usados pelas plataformas de conteúdo audiovisual.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Aprendizagem autorregulada com ou sem apoio de IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Uso orientado de ferramentas digitais para organização e revisão da aprendizagem</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'eff-oc-6')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'eff-mt-6')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'eff-av-6')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="eff-oc-6">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.1.3</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Cultivar a atitude pessoal de que a responsabilidade humana requer competências pessoais para orientar o uso proposital da IA: Orientar os estudantes a questionar como a automação das revisões de literatura, da escrita e da criação artística pode prejudicar os processos de pensamento humano e o desenvolvimento intelectual. Orientar os estudantes a discutir ações concretas que podem tomar para proteger a si mesmos e seus colegas do uso de resultados de IA para usurpar o pensamento humano.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="eff-mt-6">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Práticas baseadas em cenários de uso de IA com finalidade</div>
+          <div class="metodo-desc">Envolver os estudantes em atividades em que usam ferramentas de IA com o propósito de praticar habilidades de escrita e promover aprendizagem baseada em pesquisa, pensamento de ordem superior e criatividade. Fazer com que os estudantes discutam como o uso de IA sem responsabilidade humana pode reduzir o desenvolvimento intelectual. Incentivá-los a delinear ações concretas para proteger a si mesmos e seus colegas.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="eff-av-6">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n2" style="display:inline-block;margin-bottom:8px;">N2 Aplicar</div>
+          <div class="aval-nome">1.2 Avaliação crítica baseada em conflitos</div>
+          <div class="aval-item"><span class="aval-codigo">1.2.2</span> No futuro, todas as atas de reuniões diárias e os relatórios administrativos serão elaborados por IA? A próxima geração de estudantes ainda precisa aprender a sintetizar materiais e elaborar relatórios? Avaliar se um problema específico na vida ou na aprendizagem pode e/ou deve ser resolvido com métodos de IA.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Criatividade com e sem IA; limites da descarga cognitiva</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Comparação entre produções humanas e assistidas por IA, criando soluções de colaboração</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'eff-oc-7')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'eff-mt-7')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'eff-av-7')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="eff-oc-7">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.1.3</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Cultivar a atitude pessoal de que a responsabilidade humana requer competências pessoais para orientar o uso proposital da IA: Orientar os estudantes a questionar como a automação das revisões de literatura, da escrita e da criação artística pode prejudicar os processos de pensamento humano e o desenvolvimento intelectual.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="eff-mt-7">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Práticas baseadas em cenários de uso de IA com finalidade</div>
+          <div class="metodo-desc">Envolver os estudantes em atividades em que usam ferramentas de IA com o propósito de praticar habilidades e promover aprendizagem baseada em pesquisa e criatividade. Fazer com que os estudantes discutam como o uso de IA sem responsabilidade humana pode reduzir o desenvolvimento intelectual.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="eff-av-7">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n2" style="display:inline-block;margin-bottom:8px;">N2 Aplicar</div>
+          <div class="aval-nome">2.2 Comportamentos éticos baseados em cenários</div>
+          <div class="aval-item"><span class="aval-codigo">2.2.4</span> "Usei uma foto de um dos meus amigos para gerar um vídeo usando uma ferramenta de IA generativa e parece muito real, e postei online por diversão; usei um sistema de IA generativa para criar redações com base em meus prompts 'criativos' e as publiquei em meu nome." Avaliar uma ou ambas as afirmações e descrever possíveis problemas legais que podem surgir ao usar conteúdos gerados por IA ou ao reivindicá-los como "seu" trabalho.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Ciclo de vida da IA: trabalho, recursos naturais e ambiente</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Estudo de cadeias produtivas e recursos naturais ligados à tecnologia</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'eff-oc-8')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'eff-mt-8')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'eff-av-8')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="eff-oc-8">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.3.4</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Concretizar abordagens centradas no ser humano na elaboração e no uso da IA: Organizar reflexões sobre a IA para permitir que os estudantes compreendam seu impacto na vida, no trabalho e nas relações sociais. Destacar o papel dos seres humanos nas principais etapas do ciclo de vida da IA (pesquisadores, engenheiros, profissionais de dados, reguladores de ética e segurança).</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="eff-mt-8">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Definição e escopo baseados em exemplos de IA</div>
+          <div class="metodo-desc">Com base em exemplos selecionados, orientar os estudantes a explorar as principais etapas do ciclo de vida da IA. Quando apropriado, desenhar um diagrama dos ciclos de sistemas específicos de IA e rotular as principais técnicas e recursos usados — incluindo consumo de energia, dados e recursos computacionais.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="eff-av-8">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO conceitualmente alinhadas a esta aprendizagem no nível N1/N2. O tema é aprofundado nas perguntas N3 (1.3.1 sobre IA e mudança climática).</div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Relações de poder e desigualdades no ecossistema da IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Discussão sobre desigualdades digitais e acesso à tecnologia</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'eff-oc-9')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'eff-mt-9')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'eff-av-9')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="eff-oc-9">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.1.1</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Desenvolver uma visão de que a responsabilidade humana é uma obrigação legal dos criadores e dos prestadores de serviços de IA: Orientar os estudantes a entender que os criadores humanos e os prestadores de serviços de IA são responsáveis por questões legais, violações e infrações que o sistema de IA possa causar. Explicar como responsabilizar os criadores e provedores de IA por incidentes de segurança e riscos éticos.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="eff-mt-9">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Análise do impacto das decisões assistidas por IA nos seres humanos</div>
+          <div class="metodo-desc">Pedir aos estudantes que encontrem exemplos em que as decisões sobre os seres humanos sejam determinadas ou muito influenciadas pela IA — incluindo casos em que o acesso ou a exclusão digital afetam resultados. Orientar os estudantes a identificar as funções dos seres humanos e da IA nas principais etapas dos ciclos de decisão e verificar se a responsabilidade humana pelas decisões está em conformidade com as regulamentações aplicáveis.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="eff-av-9">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO conceitualmente alinhadas a esta aprendizagem no nível N1/N2. O tema é aprofundado nas perguntas N3 (1.3.3 sobre empregos e desigualdade; 1.3.4 sobre inclusão e equidade).</div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Direitos e deveres nos ambientes digitais</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Introdução a direitos digitais e cidadania online</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'eff-oc-10')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'eff-mt-10')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'eff-av-10')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="eff-oc-10">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.2.3</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Aprofundar o conhecimento prático sobre o uso seguro da IA e a conscientização sobre as regulações aplicáveis localmente: Orientar os estudantes a aprofundar seus conhecimentos sobre os direitos humanos relacionados à proteção e à privacidade de dados e sobre as responsabilidades legais dos criadores de IA de coletar dados com consentimento. Expor os estudantes a cenários simulados para que possam praticar estratégias de precaução e se familiarizar com as regulamentações que podem proteger sua segurança.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="eff-mt-10">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Revisões das políticas dos criadores de IA sobre privacidade de dados</div>
+          <div class="metodo-desc">Incentivar os estudantes a pesquisar e baixar exemplos de políticas de privacidade de dados de criadores de IA. Orientá-los a verificar se as políticas estão em conformidade com as regulações relevantes. Quando descobrirem uma violação, pedir que elaborem uma denúncia aos órgãos reguladores e/ou uma recomendação para que o criador aprimore suas práticas.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Debates sobre propriedade do conteúdo gerado por IA</div>
+          <div class="metodo-desc">Organizar um debate para desencadear reflexões em torno da propriedade dos conteúdos criados usando IA. Examinar a aplicabilidade das regulamentações sobre direitos autorais para conteúdo gerado por IA e como as regulamentações reconhecem o trabalho intelectual que integra conteúdo gerado por IA.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="eff-av-10">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n2" style="display:inline-block;margin-bottom:8px;">N2 Aplicar</div>
+          <div class="aval-nome">2.2 Comportamentos éticos baseados em cenários</div>
+          <div class="aval-item"><span class="aval-codigo">2.2.2</span> Se quisermos nos beneficiar dos serviços oferecidos por um sistema de IA, é necessário renunciar parte de nossa privacidade? Explicar por que a privacidade de dados deve ser considerada ao desenvolver e usar aplicativos de IA.</div>
+          <div class="aval-item"><span class="aval-codigo">2.2.4</span> Descrever possíveis problemas legais que podem surgir ao usar conteúdos gerados por IA ou ao reivindicá-los como "seu" trabalho.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Responsabilidade, segurança e ética no uso da IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Regras de convivência e segurança</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'eff-oc-11')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'eff-mt-11')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'eff-av-11')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="eff-oc-11">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.2.1</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Promover a autoconsciência e o cumprimento habitual dos princípios éticos para o uso responsável da IA: Ilustrar os princípios éticos relativos ao uso responsável da IA, com base em ferramentas concretas e cenários do mundo real. Ajudar os estudantes a construir e atualizar iterativamente uma checklist de princípios éticos para garantir suas próprias práticas legais e responsáveis ao se envolver com sistemas de IA, como proteger dados pessoais, respeitar direitos autorais e evitar desinformação.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.2.2</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Oferecer oportunidades para reforçar a autodisciplina no uso responsável da IA: Proporcionar aos estudantes oportunidades de obter compreensão de suas responsabilidades pessoais, legais e éticas ao usar IA. Enfatizar as consequências da violação de regulamentos e construir comportamentos autodisciplinados.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="eff-mt-11">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Projeto de um "kit de ética"</div>
+          <div class="metodo-desc">Projetar cenários simulados contendo potenciais conflitos éticos — como compartilhar dados privados ao conversar com sistemas de IA, colocar conteúdo gerado por IA em uma tarefa escolar ou distribuir desinformação. Organizar a elaboração de um "kit de ética" que os usuários verificam habitualmente ao usar IA, incluindo artigos de regulações locais e responsabilidades pessoais no uso legal e eticamente adequado de ferramentas de IA.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Simulação de incidentes típicos de IA</div>
+          <div class="metodo-desc">Expor os estudantes a incidentes simulados de IA que prejudiquem diretamente os seres humanos ou representem riscos de danos. Familiarizá-los com estratégias preventivas para garantir que seus dados pessoais sejam coletados, usados e excluídos apenas mediante seu consentimento informado.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="eff-av-11">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n2" style="display:inline-block;margin-bottom:8px;">N2 Aplicar</div>
+          <div class="aval-nome">2.2 Comportamentos éticos baseados em cenários</div>
+          <div class="aval-item"><span class="aval-codigo">2.2.1</span> Explicar por que a segurança dos dados deve ser considerada ao desenvolver e usar aplicativos de IA.</div>
+          <div class="aval-item"><span class="aval-codigo">2.2.2</span> Se quisermos nos beneficiar dos serviços úteis oferecidos por um sistema de IA, é necessário renunciar parte de nossa privacidade? Explicar por que a privacidade de dados deve ser considerada ao desenvolver e usar aplicativos de IA.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Competências socioemocionais e autonomia frente à IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Discussão sobre autoria, dependência digital, equilíbrio e convivência com a diversidade</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'eff-oc-12')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'eff-mt-12')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'eff-av-12')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="eff-oc-12">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="sem-oc">Sem OC correspondente no framework UNESCO. Competências socioemocionais são específicas da Educação Básica brasileira.</div>
+      </div>
+      <div class="painel painel-metodo" id="eff-mt-12">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="sem-oc">Sem abordagem UNESCO diretamente associada a esta aprendizagem.</div>
+      </div>
+      <div class="painel painel-aval" id="eff-av-12">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO diretamente associadas a esta aprendizagem.</div>
+      </div>
+    </div>
+
+  </div>
+    </div>
+  </div>
+
+  <div id="etapa-em" class="subsecao">
+    <div class="pagina">
+<div class="cluster">
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Compreender linguagem computacional e IA (modelos, generativa/preditiva)</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Análise crítica de modelos de IA, comparação realizando o reconhecimento de padrões, raciocínio simbólico e estatístico, com estudos de casos reais</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'em-oc-1')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'em-mt-1')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'em-av-1')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="em-oc-1">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.3.3</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Promover pensamento de mente aberta sobre IA e base interdisciplinar: Capacitar os estudantes a obter conhecimentos apropriados sobre métodos de IA e tópicos de pesquisa, como redes neurais artificiais e a diferença entre IA forte e IA fraca. Orientar os estudantes a compreender a interação entre o conhecimento sobre IA e o conhecimento em STEM, línguas e estudos sociais.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.3.2</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Fornecer oportunidades para adquirir habilidades técnicas adequadas à idade em programação de IA: Dar exemplos de sistemas de IA que usam diferentes categorias de algoritmos para fundamentar a compreensão dos estudantes sobre algoritmos de IA, incluindo aprendizagem supervisionada, não supervisionada e por reforço. Isso deve incluir como esses sistemas coletam e processam dados, como são treinados e os tipos concretos de algoritmo que fundamentam essas categorias.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="em-mt-1">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Análise de caso de ferramentas e usos inovadores de IA</div>
+          <div class="metodo-desc">Organizar os estudantes para procurar ferramentas inovadoras de IA. Orientar os estudantes a identificar as principais técnicas e categorias de IA usadas nessas aplicações. Incentivá-los a escrever uma redação ou fazer uma apresentação oral sobre até que ponto essas tecnologias podem ajudar os seres humanos a criar inovações em suas práticas pessoais e em modelos econômicos ou de negócios.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Solidificação de fundamentos multidisciplinares para IA</div>
+          <div class="metodo-desc">Ajudar os estudantes a entender que os sistemas modernos de IA têm como base a matemática, e que aprender sobre dados e algoritmos requer um forte domínio de matemática e um conjunto de conhecimentos multidisciplinares. Incentivar habilidades matemáticas essenciais — álgebra, probabilidade e estatística, estruturas de dados — e o conhecimento interdisciplinar relevante.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="em-av-1">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n1" style="display:inline-block;margin-bottom:8px;">N1 Compreender</div>
+          <div class="aval-nome">3.1 Conhecimento e compreensão da IA baseada em problemas</div>
+          <div class="aval-item"><span class="aval-codigo">3.1.5</span> Explicar como a aprendizagem profunda se relaciona com a aprendizagem de máquina.</div>
+          <div class="aval-item"><span class="aval-codigo">3.1.6</span> Definir o termo "rede neural artificial" (ou outros conceitos-chave aplicáveis ao nível Compreender).</div>
+        </div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n2" style="display:inline-block;margin-bottom:8px;">N2 Aplicar</div>
+          <div class="aval-nome">3.2 Insights conceituais baseados em ferramentas e operação transferível</div>
+          <div class="aval-item"><span class="aval-codigo">3.2.2</span> Explicar como a aprendizagem supervisionada, a aprendizagem não supervisionada e a aprendizagem por reforço funcionam em um nível básico.</div>
+          <div class="aval-item"><span class="aval-codigo">3.2.4</span> Explicar quais algoritmos de IA são usados e integrados por um determinado sistema de IA generativo.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Desenvolver competências lógicas e pensamento computacional</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Modelagem de problemas complexos, abstração, análise de sistemas computacionais</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'em-oc-2')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'em-mt-2')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'em-av-2')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="em-oc-2">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.4.2</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Apoiar a aquisição e o reforço de habilidades no escopo de um problema a ser resolvido por um sistema de IA: Com base em um projeto de simulação, apoiar a aprendizagem e a prática de habilidades para identificar e definir o escopo de um problema que deve e pode ser resolvido por meio da construção de um novo modelo de IA. Os estudantes podem aprimorar suas habilidades analíticas formulando declarações de problemas que podem ajudar a evitar o desperdício de tempo em problemas mal definidos.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.4.1</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Apoiar a aquisição de conhecimento metodológico e habilidades técnicas em arquitetura de IA: Incentivar os estudantes a adquirir e praticar o pensamento voltado à engenharia e às habilidades operacionais necessárias para avaliar uma variedade de arquiteturas de IA. Fornecer oportunidades de aprendizagem baseadas em projetos para apoiar a aquisição de conhecimento metodológico sobre a configuração de um protótipo de arquitetura de IA.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="em-mt-2">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Simulação do escopo do problema e justificativa para o projeto</div>
+          <div class="metodo-desc">Estimular os estudantes a pesquisar problemas em suas comunidades e identificar um que poderia ser solucionado com uso de IA. Apoiar os estudantes no escopo e definição do problema, antecipando os principais recursos — incluindo algoritmos e conjuntos de dados — e produzindo uma declaração de problema correspondente.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Simulação da avaliação de marcos e componentes para arquitetura de IA</div>
+          <div class="metodo-desc">Com base na declaração do problema e no estudo de viabilidade, incentivar os estudantes a avaliar marcos referenciais para arquiteturas de IA. Simular a avaliação e seleção de soluções para os componentes da arquitetura (camada de dados, algoritmo, modelo de IA, interface). Orientar os estudantes a comunicar a configuração por meio de abstrações como fluxogramas, diagramas ou pseudocódigo.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="em-av-2">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n1" style="display:inline-block;margin-bottom:8px;">N1 Compreender</div>
+          <div class="aval-nome">4.1 Design thinking com base em projetos</div>
+          <div class="aval-item"><span class="aval-codigo">4.1.1</span> Explicar os motivos pelos quais um desafio específico do mundo real não deve ser resolvido por uma ferramenta de IA.</div>
+        </div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n2" style="display:inline-block;margin-bottom:8px;">N2 Aplicar</div>
+          <div class="aval-nome">4.2 Configuração do sistema com base em projeto</div>
+          <div class="aval-item"><span class="aval-codigo">4.2.1</span> Explicar como os conjuntos de dados de código aberto e as bibliotecas de programação de IA podem ser aproveitados para construir um sistema de IA, incluindo as plataformas de computação em nuvem acessíveis localmente e o software necessário para o treinamento de modelos.</div>
+          <div class="aval-item"><span class="aval-codigo">4.2.2</span> Explicar quais critérios devem ser considerados para otimizar a eficiência e minimizar o desperdício de recursos computacionais ao configurar a arquitetura de IA.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Projetos colaborativos humano–IA para problemas da comunidade</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Projetos autorais e comunitários integrando IA, ética e impacto social</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'em-oc-3')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'em-mt-3')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'em-av-3')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="em-oc-3">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.1.2</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Promover a compreensão de que a responsabilidade humana é uma responsabilidade legal e social ao usar a IA para tomar decisões sobre a humanidade: Orientar os estudantes a analisar as capacidades das ferramentas de IA usadas para auxiliar a tomada de decisões. Ajudar os estudantes a avaliar as consequências do uso institucional da IA para tomar decisões sobre seres humanos em situações complexas.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.4.2</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Apoiar a preparação de habilidades técnicas avançadas e competências de gerenciamento de projetos para construção do sistema de IA: Criar e organizar oportunidades para que os estudantes adquiram habilidades de gerenciamento de projetos, incluindo equilibrar o escopo dos sistemas com os recursos disponíveis, coordenar a divisão e o compartilhamento de responsabilidades e avaliar e utilizar com pensamento crítico os recursos de IA.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.3.3.1</span><span class="nivel-tag n3">N3 Criar</span></div>
+          <div class="oc-texto">Desafiar e possibilitar a aquisição de habilidades avançadas para o desenvolvimento de ferramentas de IA baseadas em tarefas: Fornecer oportunidades de aprendizagem baseadas em tarefas para que os estudantes possam usar seus valores, conhecimentos e habilidades para criar uma ferramenta de IA com base em modelos ou conjuntos de ferramentas de IA existentes. Apoiar o domínio de habilidades avançadas na análise crítica da relevância das ferramentas de IA existentes para tarefas específicas.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="em-mt-3">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Práticas baseadas em cenários de uso de IA com finalidade</div>
+          <div class="metodo-desc">Envolver os estudantes em atividades em que usam ferramentas de IA com o propósito de praticar habilidades de pesquisa e resolver problemas reais de suas comunidades. Discutir como o uso de IA com responsabilidade humana pode ampliar o impacto social de projetos escolares e comunitários, mantendo autoria e juízo humano nas decisões importantes.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Aprimoramento baseado em tarefas para criar uma ferramenta de IA</div>
+          <div class="metodo-desc">Organizar os estudantes para modificar ou criar um conjunto de dados para contextos do mundo real, com base em uma tarefa autêntica — monitorar consumo de energia, prever o clima, rastrear uma doença. Ensinar e incentivar os estudantes a usar ferramentas de coleta de dados, aplicar habilidades de programação de IA para limpar e pré-processar os dados, e usar os dados para personalizar modelos ou criar ferramentas.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="em-av-3">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n2" style="display:inline-block;margin-bottom:8px;">N2 Aplicar</div>
+          <div class="aval-nome">4.2 Configuração do sistema com base em projeto</div>
+          <div class="aval-item"><span class="aval-codigo">4.2.1</span> Explicar como os conjuntos de dados de código aberto e as bibliotecas de programação de IA podem ser aproveitados para construir um sistema de IA, incluindo as plataformas de computação em nuvem acessíveis localmente e o software necessário para o treinamento de modelos.</div>
+        </div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n3" style="display:inline-block;margin-bottom:8px;">N3 Criar</div>
+          <div class="aval-nome">3.3 Criação de ferramentas com base em tarefas</div>
+          <div class="aval-item"><span class="aval-codigo">3.3.3</span> Preparar um plano de elaboração e de desenvolvimento de uma ferramenta de IA baseada em tarefas para atender às necessidades do mundo real. O plano deve abranger análise crítica das ferramentas existentes, avaliação da necessidade de dados, métodos para coletar e processar dados, algoritmos apropriados e parâmetros para teste.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Dados, Algoritmos e Modelos de IA, privacidade, bolhas de informação e desinformação</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Compreender como funcionam sistemas preditivos e de recomendação, com estudo aprofundado de coleta de dados, treinamento de IA, bolhas informacionais e desinformação</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'em-oc-4')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'em-mt-4')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'em-av-4')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="em-oc-4">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.1.3.2</span><span class="nivel-tag n1">N1 Compreender</span></div>
+          <div class="oc-texto">Desenvolver o conhecimento conceitual sobre como a IA é treinada com base em dados e algoritmos: Promover a abstração baseada em exemplos sobre como os modelos de aprendizado de máquina são treinados usando dados e algoritmos. Ajudar os estudantes a desenvolver compreensão dos três tipos de algoritmos de IA — supervisionada, não supervisionada e por reforço — incluindo a forma como os dados são adquiridos e rotulados, e como isso se aplica especificamente a sistemas preditivos e de recomendação.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.3.1</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Ofertar oportunidades para fortalecer o conhecimento e as habilidades em modelagem, engenharia e análise de dados: Providenciar aos estudantes oportunidades de aprendizagem baseadas em tarefas para adquirir conhecimentos e habilidades em conjuntos de dados, incluindo a aplicação de ferramentas ou linguagens de programação apropriadas para adquirir, limpar e transformar dados em um formato adequado para armazenamento, processamento e análise.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.3.3</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Incentivar os estudantes a desenvolver habilidades analíticas e de síntese para explorar conjuntos de dados de código aberto e ferramentas de IA: Organizar aprendizagem baseada em problemas para facilitar a aquisição de habilidades de avaliar criticamente e explorar conjuntos de dados de IA de código aberto e bibliotecas de algoritmos de IA gratuitas para realizar tarefas autênticas.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="em-mt-4">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Laboratório de tendências de dados</div>
+          <div class="metodo-desc">Fornecer aos estudantes conjuntos de dados amostrais com e sem valores atípicos. Orientar os estudantes a realizar experiências práticas sobre como os valores atípicos afetam o modelo. Para classificação de imagens, pedir aos estudantes que realizem um experimento sobre como o desbalanceamento de classe afeta o desempenho do modelo. Orientar os estudantes a adquirir habilidades de engenharia de dados para eliminar vieses identificáveis e comparar os resultados.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Reflexão individual ou em grupo sobre dilemas éticos</div>
+          <div class="metodo-desc">Envolver os estudantes em discussões sobre dilemas éticos que podem surgir com o uso da IA na vida diária — por exemplo, se modelos de linguagem devem usar dados das comunidades locais em seu treinamento, ou até que ponto a IA tem impacto ambiental negativo. Orientar os estudantes a expor suas opiniões por meio de ensaios, pôsteres, desenhos ou storyboards.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="em-av-4">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n1" style="display:inline-block;margin-bottom:8px;">N1 Compreender</div>
+          <div class="aval-nome">2.1 Orientação de valor ético baseada em cenários</div>
+          <div class="aval-item"><span class="aval-codigo">2.1.2</span> Você apenas inseriu seus dados pessoais em um prompt para solicitar a um sistema de IA generativa "confiável" apoio para redigir uma carta de recomendação. É possível assegurar que seus dados privados não serão divulgados? Descrever como dados pessoais confidenciais podem ser coletados por meio de solicitações ou interações com sistemas de IA.</div>
+        </div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n2" style="display:inline-block;margin-bottom:8px;">N2 Aplicar</div>
+          <div class="aval-nome">3.2 Insights conceituais baseados em ferramentas e operação transferível</div>
+          <div class="aval-item"><span class="aval-codigo">3.2.1</span> Dar exemplos de aplicativos que utilizam algum dos elementos a seguir: processamento de linguagem natural, visão computacional, reconhecimento de fala, reconhecimento de imagem, sistemas de agentes autônomos, detecção de emoções, previsão baseada em dados ou IA generativa.</div>
+          <div class="aval-item"><span class="aval-codigo">3.2.3</span> Dar exemplos de algoritmos típicos de IA nas categorias de aprendizagem supervisionada, aprendizagem não supervisionada e aprendizagem por reforço; dar exemplos de ferramentas que usam alguns desses algoritmos típicos.</div>
+          <div class="aval-item"><span class="aval-codigo">3.2.5</span> Dar exemplos de dois ou três conjuntos de dados de código aberto e bibliotecas de algoritmos de IA; explicar as vantagens e limitações de conjuntos de dados de código aberto.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Reconhecer vieses humanos e vieses da IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Estudo crítico de vieses algorítmicos (raciais, de gênero, linguagem) e seus impactos sociais</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'em-oc-5')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'em-mt-5')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'em-av-5')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="em-oc-5">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.3.1</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Ofertar oportunidades para fortalecer o conhecimento e as habilidades em modelagem, engenharia e análise de dados — incluindo habilidades para identificar e mitigar vieses em conjuntos de dados por meio de pré-processamento adequado (tratamento de valores atípicos, balanceamento de classes, representatividade).</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.3.2.1</span><span class="nivel-tag n3">N3 Criar</span></div>
+          <div class="oc-texto">Aumentar a conscientização e a compreensão sobre a "ética desde a concepção": Fornecer oportunidades de aprendizagem baseadas em conflitos para que os estudantes possam aplicar um conjunto integral de princípios éticos ao longo do ciclo de vida do projeto e da criação de IA. Orientar os estudantes a avaliar medidas para prevenir vieses na coleta e engenharia de dados, métodos livres de discriminação para o treinamento, e auditorias inclusivas.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.3.2.2</span><span class="nivel-tag n3">N3 Criar</span></div>
+          <div class="oc-texto">Desenvolver uma atitude crítica em relação aos princípios de "ética desde a concepção" por trás dos sistemas e algoritmos de IA existentes: Proporcionar aos estudantes oportunidades de aplicar princípios e regulações à avaliação de determinados sistemas ou ferramentas de IA. Desenvolver habilidades de pensamento crítico, solicitando que proponham recomendações aos criadores de sistemas de IA para remediar violações e mitigar danos.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="em-mt-5">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Laboratório de tendências de dados</div>
+          <div class="metodo-desc">Fornecer aos estudantes conjuntos de dados com e sem desbalanceamento. Para a classificação de imagens, pedir aos estudantes que realizem um experimento sobre como o desbalanceamento de classe afeta o desempenho do modelo por classe. Orientar os estudantes a adquirir habilidades em engenharia de dados para eliminar vieses identificáveis e comparar os resultados — conectando o aspecto técnico ao impacto social dos vieses.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Simulação do uso de um "rótulo de ética" para auditar ferramentas de IA</div>
+          <div class="metodo-desc">Organizar os estudantes para realizar uma auditoria simulada da "ética desde a concepção" em ferramentas ou sistemas de IA selecionados. Estimular os estudantes a pesquisar rótulos de ética para sistemas de IA. Orientar os estudantes a construir ou adaptar um rótulo de ética para auditar a intenção dos designers de sistemas de IA, incluindo vieses e discriminação identificáveis. Escrever relatórios sobre as conclusões.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="em-av-5">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n3" style="display:inline-block;margin-bottom:8px;">N3 Criar</div>
+          <div class="aval-nome">1.3 Interações sociais baseadas em conflitos</div>
+          <div class="aval-item"><span class="aval-codigo">1.3.4</span> As empresas de IA alegam que estão desenvolvendo ferramentas de IA para todos. A IA aumentará ou ameaçará a inclusão e a equidade? Avaliar de forma crítica as implicações de uma ampla adoção da IA para a inclusão e a equidade em seu contexto local.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Aprendizagem autorregulada com ou sem apoio de IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Uso crítico da IA para monitorar aprendizagem, identificar lacunas e evitar dependência excessiva</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'em-oc-6')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'em-mt-6')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'em-av-6')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="em-oc-6">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.1.3</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Cultivar a atitude pessoal de que a responsabilidade humana requer competências pessoais para orientar o uso proposital da IA: Orientar os estudantes a questionar como a automação das revisões de literatura, da escrita e da criação artística pode prejudicar os processos de pensamento humano e o desenvolvimento intelectual. Orientar os estudantes a discutir ações concretas que podem tomar para proteger a si mesmos do uso de resultados de IA para usurpar o pensamento humano e o aprimoramento contínuo de suas capacidades.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="em-mt-6">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Práticas baseadas em cenários de uso de IA com finalidade</div>
+          <div class="metodo-desc">Envolver os estudantes em atividades em que usam ferramentas de IA com o propósito de praticar habilidades de escrita, pesquisa e pensamento de ordem superior — usando a IA como apoio diagnóstico de lacunas, não como substituta. Fazer com que os estudantes discutam como o uso de IA sem responsabilidade humana pode reduzir o desenvolvimento intelectual e delinear ações concretas para proteger sua própria aprendizagem.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="em-av-6">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n2" style="display:inline-block;margin-bottom:8px;">N2 Aplicar</div>
+          <div class="aval-nome">1.2 Avaliação crítica baseada em conflitos</div>
+          <div class="aval-item"><span class="aval-codigo">1.2.2</span> No futuro, todas as atas de reuniões diárias e os relatórios administrativos serão elaborados por IA? A próxima geração de estudantes ainda precisa aprender a sintetizar materiais e elaborar relatórios? Avaliar se um problema específico na vida ou na aprendizagem pode e/ou deve ser resolvido com métodos de IA.</div>
+          <div class="aval-item"><span class="aval-codigo">2.2.3</span> "Testei muitas plataformas de IA e elas sempre forneceram um serviço que excedeu as minhas expectativas, então não preciso receber explicações sobre como esses modelos de IA funcionam." Avaliar esta afirmação e descrever o conceito de IA explicável.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Criatividade com e sem IA; limites da descarga cognitiva</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Discussão sobre autoria e atividades criativas com IA, atentando aos riscos da automação cognitiva</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'em-oc-7')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'em-mt-7')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'em-av-7')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="em-oc-7">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.1.3</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Cultivar a atitude pessoal de que a responsabilidade humana requer competências pessoais para orientar o uso proposital da IA: Orientar os estudantes a questionar como a automação das revisões de literatura, da escrita e da criação artística pode prejudicar os processos de pensamento humano e o desenvolvimento intelectual.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.3.3.2</span><span class="nivel-tag n3">N3 Criar</span></div>
+          <div class="oc-texto">Aprimorar a criatividade dos estudantes na aplicação de conhecimentos e habilidades de IA para personalizar conjuntos de ferramentas: Criar tarefas em torno da personalização de ferramentas de IA para resolver tarefas autênticas. Orientar os estudantes a adquirir habilidades para alavancar plataformas de desenvolvimento de IA e desafiar e possibilitar que os estudantes explorem e testem ideias criativas sobre o projeto de ferramentas de IA.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="em-mt-7">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Práticas baseadas em cenários de uso de IA com finalidade</div>
+          <div class="metodo-desc">Envolver os estudantes em atividades em que usam ferramentas de IA com propósito criativo claro, discutindo os limites entre autoria humana e geração automatizada. Fazer com que os estudantes reflitam sobre quando a IA amplia sua criatividade e quando ela substitui o processo criativo humano.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Comparação entre criação por personalização e construção low-code</div>
+          <div class="metodo-desc">Organizar os estudantes para explorar as duas abordagens: personalizar ferramentas de IA existentes (código aberto) e construir aplicações em plataformas low-code. Discutir a diferença entre as duas em termos de ação, supervisão humana, inclusão de dados locais e reflexão sobre diversidade cultural. Discutir como escolher entre as duas abordagens de acordo com necessidades específicas.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="em-av-7">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n2" style="display:inline-block;margin-bottom:8px;">N2 Aplicar</div>
+          <div class="aval-nome">2.2 Comportamentos éticos baseados em cenários</div>
+          <div class="aval-item"><span class="aval-codigo">2.2.4</span> "Usei uma foto de um dos meus amigos para gerar um vídeo usando uma ferramenta de IA generativa e postei online; usei um sistema de IA generativa para criar redações com base em meus prompts 'criativos' e as publiquei em meu nome." Avaliar e descrever possíveis problemas legais que podem surgir ao usar conteúdos gerados por IA ou ao reivindicá-los como "seu" trabalho.</div>
+        </div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n3" style="display:inline-block;margin-bottom:8px;">N3 Criar</div>
+          <div class="aval-nome">2.3 Elaboração de regras baseadas em cenários</div>
+          <div class="aval-item"><span class="aval-codigo">2.3.2</span> Cocrie orientações éticas para você e seus colegas sobre o uso de plataformas de recomendação de vídeo ou sistemas de IA generativa.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Ciclo de vida da IA: trabalho, recursos naturais e ambiente</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Análise crítica do ciclo de vida da IA (mineração, energia, água, datacenters, descarte)</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'em-oc-8')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'em-mt-8')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'em-av-8')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="em-oc-8">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.4.1</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Apoiar a aquisição de conhecimento metodológico e habilidades técnicas em arquitetura de IA: Fornecer oportunidades de aprendizagem baseadas em projetos para apoiar a configuração de um protótipo de arquitetura de IA que englobe um modelo de IA eficiente em termos de energia para minimizar o impacto ambiental negativo — analisando o consumo de recursos computacionais em cada etapa do ciclo de vida.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.3.1.1</span><span class="nivel-tag n3">N3 Criar</span></div>
+          <div class="oc-texto">Promover a conscientização sobre como ser um cidadão crítico de IA: Capacitar os estudantes a obter insights baseados em evidências para entender a adoção generalizada da IA como infraestrutura de apoio às atividades sociais. Promover sua conscientização e pontos de vista críticos sobre os desafios que as sociedades humanas enfrentam, incluindo o impacto ambiental do treinamento de modelos de IA em larga escala.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="em-mt-8">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Simulação da exploração de recursos para construir um sistema de IA</div>
+          <div class="metodo-desc">Incentivar os estudantes a construir um sistema de IA simulado e orientar os estudantes a realizar trade-offs entre as necessidades de custo e a capacidade computacional, bem como entre a robustez dos modelos de IA e seu impacto ambiental, visando otimizar a eficiência e minimizar o desperdício de recursos computacionais.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Estudos de caso sobre conflitos em uma sociedade de IA inclusiva</div>
+          <div class="metodo-desc">Organizar estudos de caso sobre os conflitos recorrentes entre inovação em IA e sustentabilidade. Pedir aos estudantes que analisem casos em que a IA foi incorporada de forma generalizada e que questionem como ela pode agravar a mudança climática e o consumo de recursos naturais. Desafiar os estudantes a tomar posições sobre como tecnologias de IA podem ser regulamentadas do ponto de vista ambiental.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="em-av-8">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n2" style="display:inline-block;margin-bottom:8px;">N2 Aplicar</div>
+          <div class="aval-nome">4.2 Configuração do sistema com base em projeto</div>
+          <div class="aval-item"><span class="aval-codigo">4.2.3</span> Calcule o consumo de recursos de computação do modelo de IA selecionado e elabore estratégias para melhorar a eficiência dos métodos de IA, a fim de reduzir seu impacto ambiental.</div>
+        </div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n3" style="display:inline-block;margin-bottom:8px;">N3 Criar</div>
+          <div class="aval-nome">1.3 Interações sociais baseadas em conflitos</div>
+          <div class="aval-item"><span class="aval-codigo">1.3.1</span> A IA ajudará os seres humanos a mitigar as ações que impulsionam a mudança climática e proteger o bem-estar do planeta? As sociedades humanas devem mobilizar todos os recursos para treinar modelos de IA de forma ilimitada? Ou o treinamento de modelos de IA gerou impactos irreversíveis na mudança climática? Analisar como alguns sistemas de IA podem afetar ambientes e mudança climática.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Relações de poder e desigualdades no ecossistema da IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Análise geopolítica e econômica da IA; papel do Estado e das políticas públicas</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'em-oc-9')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'em-mt-9')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'em-av-9')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="em-oc-9">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.3.1.1</span><span class="nivel-tag n3">N3 Criar</span></div>
+          <div class="oc-texto">Promover a conscientização sobre como ser um cidadão crítico de IA: Desenvolver as habilidades dos estudantes em avaliar com pensamento crítico os vieses amplificados pela IA contra mulheres, grupos étnicos marginalizados e pessoas socioeconomicamente desfavorecidas, bem como os efeitos da IA nas relações, normas e estruturas sociais. Ajudar a identificar as razões por trás do profundo impacto da IA nas sociedades e avaliar como as normas legais, éticas e sociais devem ser adaptadas.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.3.1.2</span><span class="nivel-tag n3">N3 Criar</span></div>
+          <div class="oc-texto">Cultivar responsabilidades pessoais e sociais nas sociedades de IA: Incentivar os estudantes a compartilhar suas opiniões sobre como seriam as sociedades desejáveis de IA e delinear as principais responsabilidades que os cidadãos precisam assumir para construir uma sociedade de IA inclusiva, sustentável e justa. Desafiar os estudantes a analisar os problemas enfrentados na defesa de princípios éticos para o design e o uso da IA em situações complexas.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.3.2.3</span><span class="nivel-tag n3">N3 Criar</span></div>
+          <div class="oc-texto">Cultivar responsabilidades sociais para defender a "ética desde a concepção" nas regulações sobre IA: Com base nas regulações de IA selecionadas, orientar os estudantes para avaliar como elas estão alinhadas à abordagem ética desde a concepção. Orientando-os a recomendar modificações nas regulações locais existentes ou elaborar propostas sobre o desenvolvimento de regulações para governar a ética em suas comunidades.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="em-mt-9">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Estudos de caso sobre conflitos em uma sociedade de IA inclusiva e justa</div>
+          <div class="metodo-desc">Organizar estudos de caso sobre os conflitos recorrentes em relação a uma sociedade de IA inclusiva e justa contra os riscos que a IA representa para os valores centrados no ser humano. Pedir aos estudantes que analisem casos em que a IA foi incorporada na infraestrutura das sociedades e que questionem como ela pode amplificar vieses e ampliar a desigualdade econômica e social.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Simulação do uso de uma matriz de ética para revisar as regulações sobre IA</div>
+          <div class="metodo-desc">Convidar os estudantes a pesquisar uma matriz de ética para envolver as partes interessadas relevantes nas regulações sobre IA. Apoiá-los na construção de uma matriz adaptativa, com os princípios éticos formando as colunas e as partes interessadas relevantes constituindo as linhas (criadores de IA, reguladores, implementadores institucionais, usuários). Os estudantes podem aplicar sua matriz para analisar artigos relevantes de uma regulação selecionada.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="em-av-9">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n3" style="display:inline-block;margin-bottom:8px;">N3 Criar</div>
+          <div class="aval-nome">1.3 Interações sociais baseadas em conflitos</div>
+          <div class="aval-item"><span class="aval-codigo">1.3.2</span> A IA se tornará uma "assistente de trabalho" indispensável e confiável para os seres humanos, ou uma ameaça à segurança, à inclusão, à equidade, à justiça e a outras normas sociais das sociedades humanas? Refletir, de forma crítica, sobre o possível impacto da IA nas sociedades humanas.</div>
+          <div class="aval-item"><span class="aval-codigo">1.3.3</span> A IA criará empregos para todos os grupos de pessoas, de forma igualitária, ou a implantação da IA causará mais desigualdade em termos do desenvolvimento econômico na conexão dos mercados mundiais e seu contexto local? Avaliar de forma crítica os motivos pelos quais a IA se tornou cada vez mais importante e como ela pode afetar a economia local e o mercado de trabalho.</div>
+          <div class="aval-item"><span class="aval-codigo">1.3.4</span> As empresas de IA alegam que estão desenvolvendo ferramentas de IA para todos. A IA aumentará ou ameaçará a inclusão e a equidade? Avaliar de forma crítica as implicações de uma ampla adoção da IA para a inclusão e a equidade em seu contexto local.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Direitos e deveres nos ambientes digitais</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Estudo de direitos digitais, democracia, regulação e participação cidadã</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'em-oc-10')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'em-mt-10')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'em-av-10')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="em-oc-10">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.2.3</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Aprofundar o conhecimento prático sobre o uso seguro da IA e a conscientização sobre as regulações aplicáveis localmente: Orientar os estudantes a aprofundar seus conhecimentos sobre os direitos humanos relacionados à proteção e à privacidade de dados e sobre as responsabilidades legais dos criadores de IA de coletar dados com consentimento.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.3.2.3</span><span class="nivel-tag n3">N3 Criar</span></div>
+          <div class="oc-texto">Cultivar responsabilidades sociais para defender a "ética desde a concepção" nas regulações sobre IA: Com base nas regulações de IA selecionadas, orientar os estudantes para avaliar como elas estão alinhadas à abordagem ética desde a concepção e até que ponto as medidas correspondentes são suficientes para monitorar e regular os riscos éticos. Orientando-os a recomendar modificações nas regulações locais existentes ou elaborar propostas sobre o desenvolvimento de regulações para governar a ética em suas comunidades.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="em-mt-10">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Revisões das políticas dos criadores de IA sobre privacidade de dados</div>
+          <div class="metodo-desc">Incentivar os estudantes a pesquisar e baixar exemplos de políticas de privacidade de dados de criadores de IA. Orientá-los a aproveitar seus conhecimentos sobre os direitos dos proprietários de dados e as responsabilidades legais dos criadores de IA para verificar se as políticas estão em conformidade com as regulações relevantes. Quando descobrirem uma violação, pedir que elaborem uma denúncia aos órgãos reguladores.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Simulação do uso de uma matriz de ética para revisar as regulações sobre IA</div>
+          <div class="metodo-desc">Convidar os estudantes a pesquisar uma matriz de ética para envolver as partes interessadas relevantes nas regulações sobre IA. Os estudantes podem aplicar sua matriz para analisar artigos relevantes de uma regulação selecionada e elaborar relatórios, incluindo recomendações para adaptar ou iterar as regulações. Quando regulações locais não estiverem disponíveis, escrever uma proposta sobre a criação de uma nova regulação de IA.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="em-av-10">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n3" style="display:inline-block;margin-bottom:8px;">N3 Criar</div>
+          <div class="aval-nome">2.3 Elaboração de regras baseadas em cenários</div>
+          <div class="aval-item"><span class="aval-codigo">2.3.1</span> Seu país ou escola (distrito) desenvolveu regulações sobre o uso de IA (ou IA generativa)? Se sim, avaliar de forma crítica as regulações em relação aos princípios fundamentais da "Recomendação sobre a Ética da IA", da UNESCO, e/ou com a Lei de IA da UE. Se não, desenvolva uma proposta para justificar a necessidade de criar regulações e descreva os principais pontos que elas devem cobrir.</div>
+          <div class="aval-item"><span class="aval-codigo">2.3.3</span> Cocrie um conjunto de regras éticas para o uso seguro e responsável de IA em sua escola e em casa.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Responsabilidade, segurança e ética no uso da IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Avaliação ética de usos da IA em redes sociais, plataformas e serviços</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'em-oc-11')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'em-mt-11')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'em-av-11')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="em-oc-11">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.2.2.1</span><span class="nivel-tag n2">N2 Aplicar</span></div>
+          <div class="oc-texto">Promover a autoconsciência e o cumprimento habitual dos princípios éticos para o uso responsável da IA: Ilustrar os princípios éticos relativos ao uso responsável da IA, com base em ferramentas concretas e cenários do mundo real. Ajudar os estudantes a construir uma checklist de princípios éticos para garantir suas próprias práticas legais e responsáveis ao se envolver com sistemas de IA.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.3.2.1</span><span class="nivel-tag n3">N3 Criar</span></div>
+          <div class="oc-texto">Aumentar a conscientização e a compreensão sobre a "ética desde a concepção": Fornecer oportunidades de aprendizagem para que os estudantes possam aplicar um conjunto integral de princípios éticos ao longo do ciclo de vida do projeto e da criação de IA. Orientar os estudantes para avaliar a adequação ética das ferramentas de IA.</div>
+        </div>
+        <div class="oc-item">
+          <div class="oc-meta"><span class="oc-codigo">OC4.3.2.2</span><span class="nivel-tag n3">N3 Criar</span></div>
+          <div class="oc-texto">Desenvolver uma atitude crítica em relação aos princípios de "ética desde a concepção" por trás dos sistemas e algoritmos de IA existentes: Proporcionar aos estudantes oportunidades de adotar uma abordagem abrangente para aplicar princípios e regulações à avaliação de determinados sistemas ou ferramentas de IA. Desenvolver suas habilidades de pensamento crítico, solicitando que proponham recomendações aos criadores de sistemas de IA para remediar violações e mitigar danos.</div>
+        </div>
+      </div>
+      <div class="painel painel-metodo" id="em-mt-11">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Simulação da devida diligência de um "diretor de ética"</div>
+          <div class="metodo-desc">Elaborar práticas de aprendizagem baseadas em projetos, pedir aos estudantes que simulem estar no papel de um diretor de ética de uma empresa de IA, o que inclui elaborar uma lista de verificação de critérios éticos para auditar as principais etapas do projeto de sistema de IA e definir os principais procedimentos da devida diligência a serem seguidos ao supervisionar a segurança e a ética do sistema.</div>
+        </div>
+        <div class="metodo-item">
+          <div class="metodo-titulo">Simulação do uso de um "rótulo de ética" para auditar ferramentas de IA</div>
+          <div class="metodo-desc">Organizar os estudantes para realizar uma auditoria simulada da "ética desde a concepção" em ferramentas ou sistemas de IA selecionados. Orientar os estudantes a construir ou adaptar um rótulo de ética para auditar a intenção dos designers de sistemas e serviços de IA, incluindo a coleta de informações para além de suas declarações publicadas. Escrever relatórios sobre as conclusões da auditoria.</div>
+        </div>
+      </div>
+      <div class="painel painel-aval" id="em-av-11">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n2" style="display:inline-block;margin-bottom:8px;">N2 Aplicar</div>
+          <div class="aval-nome">2.2 Comportamentos éticos baseados em cenários</div>
+          <div class="aval-item"><span class="aval-codigo">2.2.1</span> Explicar por que a segurança dos dados deve ser considerada ao desenvolver e usar aplicativos de IA.</div>
+          <div class="aval-item"><span class="aval-codigo">2.2.3</span> Descrever o conceito de IA explicável.</div>
+        </div>
+        <div class="nivel-bloco">
+          <div class="nivel-tag n3" style="display:inline-block;margin-bottom:8px;">N3 Criar</div>
+          <div class="aval-nome">2.3 Elaboração de regras baseadas em cenários</div>
+          <div class="aval-item"><span class="aval-codigo">2.3.2</span> Cocrie orientações éticas para você e seus colegas sobre o uso de plataformas de recomendação de vídeo ou sistemas de IA generativa.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="bloco-topo">
+      <div class="coluna-aprendizagem">
+        <div class="aprendizagem-nome">Competências socioemocionais e autonomia frente à IA</div>
+      </div>
+      <div class="coluna-direita">
+        <div class="abordagem-label">Abordagem</div>
+        <div class="abordagem-texto">Desenvolvimento de estratégias de autonomia, bem-estar e convivência com a diversidade</div>
+      </div>
+    </div>
+      <div class="botoes">
+        <button class="btn btn-oc" onclick="toggle(this,'em-oc-12')">▸ Objetivos UNESCO relacionados</button>
+        <button class="btn btn-metodo" onclick="toggle(this,'em-mt-12')">▸ Abordagens UNESCO relacionadas</button>
+        <button class="btn btn-aval" onclick="toggle(this,'em-av-12')">▸ Exemplos de tarefas UNESCO</button>
+      </div>
+      <div class="painel painel-oc" id="em-oc-12">
+        <div class="painel-titulo">Objetivos UNESCO relacionados</div>
+        <div class="sem-oc">Sem OC correspondente no framework UNESCO. Competências socioemocionais são específicas da Educação Básica brasileira. Parcialmente relacionado a OC4.3.1.3 (cultivar senso de autorrealização como cidadão de IA e atitude de aprendizagem contínua).</div>
+      </div>
+      <div class="painel painel-metodo" id="em-mt-12">
+        <div class="painel-titulo">Abordagens UNESCO relacionadas</div>
+        <div class="sem-oc">Sem abordagem UNESCO diretamente associada a esta aprendizagem.</div>
+      </div>
+      <div class="painel painel-aval" id="em-av-12">
+        <div class="painel-titulo">Exemplos de tarefas UNESCO</div>
+        <div class="sem-oc">Sem perguntas UNESCO diretamente associadas a esta aprendizagem.</div>
+      </div>
+    </div>
+
+  </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- SEÇÃO COM IA -->
+<section id="secao-com" class="secao ativa">
+  <div class="pagina">
+<div class="etapa-header">
+    <div class="etapa-titulo">Aprender COM IA</div>
+    <div class="etapa-fonte"><strong>Fonte:</strong> SILVEIRA, Priscilla. <em>Educar com IA: uma abordagem centrada no ser humano</em>. Natal, RN: Aure, 2025. E-book.</div>
+  </div>
+
+  <div class="bloco">
+    <div class="bloco-topo">
+      <div class="coluna-dimensao">
+        <div class="dim-nome">Produção Textual</div>
+      </div>
+      <div class="coluna-acoes">
+        <div class="acoes-label">Ações possíveis</div>
+        <div class="acoes-lista">
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-1-1')">Criar</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-1-2')">Parafrasear</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-1-3')">Resumir</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-1-4')">Melhorar</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-1-5')">Expandir</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-1-6')">Aplicar tom ou estilo</button>
+        </div>
+
+        <div class="acao-descricao" id="com-desc-1-1" data-grupo="com-1">
+          <strong>Criar:</strong> a IA pode iniciar a produção de textos originais com base em diretrizes mínimas, gerando esboços e primeiras versões que podem ser refinadas pelo usuário.
+        </div>
+        <div class="acao-descricao" id="com-desc-1-2" data-grupo="com-1">
+          <strong>Parafrasear:</strong> reformular textos existentes para evitar repetições ou para adaptar o conteúdo a novos públicos e contextos. A IA pode oferecer alternativas de redação que mantêm o significado original, mas mudam a forma, ajudando a superar desafios como a redundância ou a necessidade de atender a diferentes níveis de compreensão.
+        </div>
+        <div class="acao-descricao" id="com-desc-1-3" data-grupo="com-1">
+          <strong>Resumir:</strong> sintetizar informações de grandes volumes de texto em resumos concisos.
+        </div>
+        <div class="acao-descricao" id="com-desc-1-4" data-grupo="com-1">
+          <strong>Melhorar:</strong> aprimorar a qualidade dos textos, corrigindo gramática, ortografia, estilo, entre outros aspectos. A IA pode atuar como um revisor que sugere melhorias e refinamentos, assegurando que a comunicação seja melhorada e propicie o aperfeiçoamento da sua escrita.
+        </div>
+        <div class="acao-descricao" id="com-desc-1-5" data-grupo="com-1">
+          <strong>Expandir:</strong> partir de ideias breves ou resumidas para criar textos mais detalhados.
+        </div>
+        <div class="acao-descricao" id="com-desc-1-6" data-grupo="com-1">
+          <strong>Aplicar tom ou estilo:</strong> adaptar o texto para refletir um tom ou estilo específico, adequando a comunicação a públicos distintos ou para manter a consistência do tom/estilo em diferentes materiais.
+        </div>
+      </div>
+    </div>
+
+    <div class="botoes">
+      <button class="btn btn-premissa" onclick="togglePainel(this,'com-pr-1')">▸ Premissas para protagonismo humano</button>
+    </div>
+
+    <div class="painel" id="com-pr-1">
+      <div class="painel-titulo">Premissas para cocriar com protagonismo</div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Originalidade e criatividade</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>Use a IA para sugerir esboços em forma de tópicos, que servem como ponto de partida para seu texto.</li>
+            <li>Use o texto gerado pela IA como ponto de partida, expandindo ideias ou apresentando ângulos que a IA não pôde considerar por não conhecer o seu contexto e experiências.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Humanização</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>Trabalhe para que o texto reflita seu estilo de escrita, humor, ironia ou outra característica marcante.</li>
+            <li>Ajuste o tom, ritmo e escolha de palavras para que fiquem alinhadas com sua intenção e identidade.</li>
+            <li>Inclua seus relatos e percepções tornando o texto mais envolvente e único.</li>
+            <li>Traga narrativas suas para se conectar com o leitor.</li>
+            <li>Adicione seus sentimentos, impressões e reflexões.</li>
+            <li>Coloque sua intuição e moralidade, garantindo que o texto esteja alinhado com seus valores e princípios éticos.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Contextualização cultural</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>Enriqueça o texto com referências locais, regionais ou nacionais.</li>
+            <li>Use gírias, ditados ou formas de expressão que reflitam a identidade cultural local, regional ou nacional.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Divergência crítica</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>Garanta que todas as informações estão corretas (confiabilidade).</li>
+            <li>Questione as visões da IA, identificando onde o texto pode estar reproduzindo estereótipos ou falta de representatividade (vieses).</li>
+            <li>Inclua múltiplas perspectivas a partir dos autores que conhece e sua visão de mundo, sempre respeitando os direitos autorais.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="bloco">
+    <div class="bloco-topo">
+      <div class="coluna-dimensao">
+        <div class="dim-nome">Pensamento Analítico</div>
+      </div>
+      <div class="coluna-acoes">
+        <div class="acoes-label">Ações possíveis</div>
+        <div class="acoes-lista">
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-2-1')">Interpretar informações</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-2-2')">Avaliar informações</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-2-3')">Identificar padrões</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-2-4')">Categorizar informações</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-2-5')">Resolver problemas</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-2-6')">Sintetizar informações</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-2-7')">Integrar ferramentas de análise</button>
+        </div>
+
+        <div class="acao-descricao" id="com-desc-2-1" data-grupo="com-2">
+          <strong>Interpretar informações:</strong> a IA pode processar e fornecer <em>insights</em> a partir de grandes conjuntos de dados, transformando números e fatos brutos em interpretações compreensíveis que ajudam na tomada de decisões.
+        </div>
+        <div class="acao-descricao" id="com-desc-2-2" data-grupo="com-2">
+          <strong>Avaliar informações:</strong> a IA pode ajudar a avaliar a relevância e precisão dos dados. Isso permite que se faça julgamentos sobre a qualidade das informações, um passo importante em qualquer processo analítico.
+        </div>
+        <div class="acao-descricao" id="com-desc-2-3" data-grupo="com-2">
+          <strong>Identificar padrões:</strong> uma das grandes forças da IA é sua habilidade em reconhecer padrões que podem não ser imediatamente óbvios para os humanos. A ferramenta pode auxiliar a prever tendências, compreender comportamentos e fazer projeções.
+        </div>
+        <div class="acao-descricao" id="com-desc-2-4" data-grupo="com-2">
+          <strong>Categorizar informações:</strong> a IA pode organizar informações em categorias lógicas, o que facilita a análise e a compreensão.
+        </div>
+        <div class="acao-descricao" id="com-desc-2-5" data-grupo="com-2">
+          <strong>Resolver problemas:</strong> a IA pode sugerir soluções para problemas complexos ao analisar variáveis e simular cenários.
+        </div>
+        <div class="acao-descricao" id="com-desc-2-6" data-grupo="com-2">
+          <strong>Sintetizar informações:</strong> a IA pode condensar uma grande quantidade de dados em conclusões ou resumos.
+        </div>
+        <div class="acao-descricao" id="com-desc-2-7" data-grupo="com-2">
+          <strong>Integrar ferramentas de análise:</strong> a IA pode aumentar seu potencial analítico se houver a integração de alguma ferramenta de análise já existente e validada no <em>prompt</em>, como, por exemplo, uma matriz de prioridade ou análise SWOT.
+        </div>
+      </div>
+    </div>
+
+    <div class="botoes">
+      <button class="btn btn-premissa" onclick="togglePainel(this,'com-pr-2')">▸ Premissas para protagonismo humano</button>
+    </div>
+
+    <div class="painel" id="com-pr-2">
+      <div class="painel-titulo">Premissas para cocriar com protagonismo</div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Complementaridade e não substituição</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>A utilização da IA não deve substituir o desenvolvimento de habilidades analíticas humanas, e sim estimulá-las.</li>
+            <li>Integre a análise automatizada da IA com o seu julgamento humano, garantindo que as decisões reflitam não apenas dados, mas também intuição, ética e valores.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Responsabilidade na avaliação de dados</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>Faça testes de validação de análises para verificar se a IA está sendo precisa no tipo de análise desejada. Atenção especial para o volume de dados considerando a limitação do número de tokens que a IA é capaz de processar na janela de contexto.</li>
+            <li>A IA pode avaliar informações, mas a responsabilidade final pelas decisões deve ser humana.</li>
+            <li>Não forneça à IA dados que podem infringir a Lei Geral de Proteção de Dados (LGPD) ou a Lei de Direitos Autorais.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Interpretação contextual e crítica</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>Garanta no prompt que a análise da IA considerou informações importantes do contexto a ser analisado.</li>
+            <li>Apesar da capacidade da IA em processar grandes volumes de dados, a interpretação dos resultados precisa da sensibilidade humana para contextos sociais, culturais e éticos.</li>
+            <li>Questione os insights da IA verificando sua relevância no contexto específico e confrontando com a sua perspectiva e com outras fontes.</li>
+            <li>A IA pode perpetuar visões apresentadas nos dados de treinamento. Atenção para identificar e mitigar essas tendências.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="bloco">
+    <div class="bloco-topo">
+      <div class="coluna-dimensao">
+        <div class="dim-nome">Pensamento Criativo</div>
+      </div>
+      <div class="coluna-acoes">
+        <div class="acoes-label">Ações possíveis</div>
+        <div class="acoes-lista">
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-3-1')">Gerar volume de ideias</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-3-2')">Gerar ideias fora da caixa</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-3-3')">Expandir e construir sobre ideias</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-3-4')">Priorizar ideias</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-3-5')">Alinhar ideias às necessidades dos usuários</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-3-6')">Integrar ferramentas de criação</button>
+        </div>
+
+        <div class="acao-descricao" id="com-desc-3-1" data-grupo="com-3">
+          <strong>Gerar volume de ideias:</strong> a IA pode ser utilizada para produzir uma grande quantidade de ideias em um curto espaço de tempo, por exemplo, em <em>brainstorms</em> ou quando se busca inovar.
+        </div>
+        <div class="acao-descricao" id="com-desc-3-2" data-grupo="com-3">
+          <strong>Gerar ideias fora da caixa:</strong> a capacidade da IA de processar uma vasta gama de informações e combinar conhecimentos de múltiplas áreas permite que ela sugira soluções que podem não ser imediatamente óbvias para o pensamento humano tradicional. Os usuários podem utilizar essa funcionalidade para explorar possibilidades que normalmente estariam fora do seu campo de visão.
+        </div>
+        <div class="acao-descricao" id="com-desc-3-3" data-grupo="com-3">
+          <strong>Expandir e construir sobre ideias:</strong> a IA não apenas gera ideias, mas também pode ajudar a desenvolvê-las, adicionando detalhes, explorando diferentes ângulos ou ampliando o escopo de uma concepção inicial.
+        </div>
+        <div class="acao-descricao" id="com-desc-3-4" data-grupo="com-3">
+          <strong>Priorizar ideias:</strong> com a ajuda da IA, é possível avaliar e priorizar ideias com base em critérios definidos, como a viabilidade ou impacto potencial. Esse processo de seleção ajuda a focar em ideias com maior potencial de sucesso.
+        </div>
+        <div class="acao-descricao" id="com-desc-3-5" data-grupo="com-3">
+          <strong>Alinhar ideias às necessidades dos usuários:</strong> utilizando dados dos seus usuários, a IA pode ajudar a alinhar as soluções criativas com as reais necessidades e preferências deles, garantindo que as inovações sejam centradas no humano e no contexto e tenham maior chance de sucesso na implementação.
+        </div>
+        <div class="acao-descricao" id="com-desc-3-6" data-grupo="com-3">
+          <strong>Integrar ferramentas de criação:</strong> a IA pode aumentar seu potencial criativo se houver a integração de alguma ferramenta de criatividade já existente e validada no <em>prompt</em>, como, por exemplo, a SCAMPER.
+        </div>
+      </div>
+    </div>
+
+    <div class="botoes">
+      <button class="btn btn-premissa" onclick="togglePainel(this,'com-pr-3')">▸ Premissas para protagonismo humano</button>
+    </div>
+
+    <div class="painel" id="com-pr-3">
+      <div class="painel-titulo">Premissas para cocriar com protagonismo</div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Complementaridade e não substituição</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>A IA deve ser uma ferramenta que amplia a criatividade humana, não substitui a inventividade única do ser humano.</li>
+            <li>A criatividade humana não deve ser reduzida à edição de ideias geradas por IA. A autonomia criativa é essencial para o crescimento intelectual e artístico.</li>
+            <li>Prefira primeiro cocriar com humanos em processos criativos e, em seguida, a IA entra para complementar os resultados.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Alinhamento ao contexto</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>Garanta no prompt que o processo de criação da IA considera informações importantes do contexto dos usuários/público-alvo e do local.</li>
+            <li>Garanta que o toque humano esteja presente na geração de ideias, mantendo características culturais, morais, sociais e emocionais que a IA não pode replicar.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Ampliação da criatividade</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>A dependência excessiva de IA pode levar à reprodução de padrões e limitações criativas, comprometendo a diversidade cultural e a originalidade.</li>
+            <li>Incorpore perspectivas diversas ao selecionar e desenvolver ideias propostas pela IA.</li>
+            <li>A IA pode perpetuar visões apresentadas nos dados de treinamento. Atenção para identificar e mitigar essas tendências.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="bloco">
+    <div class="bloco-topo">
+      <div class="coluna-dimensao">
+        <div class="dim-nome">Aprendizagem</div>
+      </div>
+      <div class="coluna-acoes">
+        <div class="acoes-label">Ações possíveis</div>
+        <div class="acoes-lista">
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-4-1')">Identificar gaps do aprendiz</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-4-2')">Estabelecer metas de aprendizado</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-4-3')">Monitorar progresso na aprendizagem</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-4-4')">Aplicar estratégias de aprendizagem</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-4-5')">Refletir criticamente para aprender</button>
+          <button class="acao-chip" onclick="toggleAcao(this, 'com-desc-4-6')">Autocorrigir-se diante de feedback</button>
+        </div>
+
+        <div class="acao-descricao" id="com-desc-4-1" data-grupo="com-4">
+          <strong>Identificar gaps do aprendiz:</strong> a IA pode analisar o desempenho do usuário a partir de testes diagnósticos ou amostras, ajudando-o a entender melhor suas competências e lacunas de aprendizagem.
+        </div>
+        <div class="acao-descricao" id="com-desc-4-2" data-grupo="com-4">
+          <strong>Estabelecer metas de aprendizado:</strong> com a IA, é possível definir objetivos de aprendizagem personalizados que estejam alinhados às necessidades e aspirações individuais. A IA pode sugerir metas com base no entendimento do contexto do usuário e nos resultados desejados.
+        </div>
+        <div class="acao-descricao" id="com-desc-4-3" data-grupo="com-4">
+          <strong>Monitorar progresso na aprendizagem:</strong> a IA pode acompanhar o progresso em direção às metas estabelecidas, oferecendo feedback em tempo real. Isso permite uma abordagem adaptativa, na qual o caminho de aprendizagem é continuamente otimizado para atender às necessidades do aprendiz.
+        </div>
+        <div class="acao-descricao" id="com-desc-4-4" data-grupo="com-4">
+          <strong>Aplicar estratégias de aprendizagem:</strong> a IA pode utilizar estratégias de aprendizagem eficazes na interação com o usuário.
+        </div>
+        <div class="acao-descricao" id="com-desc-4-5" data-grupo="com-4">
+          <strong>Refletir criticamente para aprender:</strong> a IA pode estimular a reflexão crítica ao desafiar os usuários com perguntas e problemas que requerem pensamento profundo. Isso ajuda a internalizar a aprendizagem e a desenvolver habilidades de pensamento crítico.
+        </div>
+        <div class="acao-descricao" id="com-desc-4-6" data-grupo="com-4">
+          <strong>Autocorrigir-se diante de feedback:</strong> a IA pode fornecer feedback construtivo imediato para que os usuários possam corrigir erros e refinar suas competências.
+        </div>
+      </div>
+    </div>
+
+    <div class="botoes">
+      <button class="btn btn-premissa" onclick="togglePainel(this,'com-pr-4')">▸ Premissas para protagonismo humano</button>
+    </div>
+
+    <div class="painel" id="com-pr-4">
+      <div class="painel-titulo">Premissas para cocriar com protagonismo</div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Complementaridade e não substituição</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>A IA pode apoiar e facilitar o aprendizado, mas o controle e a responsabilidade pelo processo devem permanecer com o aprendiz e, no contexto educacional, com o aprendiz mediado pelo educador.</li>
+            <li>Use a IA como suporte para aprender, mas garanta sua participação na solução de problemas e na construção do conhecimento.</li>
+            <li>Aprender apenas a partir de respostas prontas geradas por IA promove a ilusão de que você está aprendendo e, na verdade, traz prejuízos para o seu desenvolvimento enquanto aprendiz.</li>
+            <li>O uso excessivo e único de IA para aprender pode levar à dependência e ao enfraquecimento das habilidades cognitivas humanas.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Meta-aprendizagem</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>Na era da IA, é fundamental desenvolver a capacidade de refletir sobre o próprio aprendizado (meta-aprendizagem) para que, de forma crítica, saibamos como usar a IA para aprender de forma benéfica.</li>
+            <li>Garanta no prompt que ao usar a IA para aprender, ela irá considerar o contexto do aprendiz e irá promover o desenvolvimento do pensamento crítico e criativo e não os prejudicar.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="premissa-item">
+        <div class="premissa-titulo">Confiabilidade</div>
+        <div class="premissa-desc">
+          <ul>
+            <li>A IA, embora poderosa, pode gerar informações imprecisas, desatualizadas ou completamente erradas devido às limitações de seu treinamento. Por isso, ao aprender com ela, sempre revise e verifique o resultado gerado, cruzando-o com outras fontes confiáveis.</li>
+            <li>Prefira aprender integrando ao prompt links e arquivos confiáveis para aumentar a precisão da IA.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</section>
+
+<footer class="rodape">
+  <div class="rodape-inner">
+    <div>© 2026 · IA na educação: referenciais para aprender com IA e sobre IA · <a href="#" onclick="abrirSobre(); return false;">Sobre</a></div>
+    <div>Desenvolvido por <a href="https://www.diegorzde.com" target="_blank" rel="noopener">Diego Rezende</a> com <a href="https://claude.ai" target="_blank" rel="noopener">Claude.ai</a></div>
+  </div>
+</footer>
+
+<!-- MODAL SOBRE -->
+<div id="modal-sobre" class="modal" onclick="fecharSobre(event)">
+  <div class="modal-conteudo" onclick="event.stopPropagation()">
+    <button class="modal-fechar" onclick="fecharSobre()" aria-label="Fechar">×</button>
+
+    <h2 class="modal-titulo">Sobre</h2>
+
+    <h3 class="modal-subtitulo">Objetivo</h3>
+    <p>Este site reúne referências conceituais para quem desenha atividades educacionais envolvendo inteligência artificial na Educação Básica brasileira. O objetivo é oferecer uma consulta rápida e acionável por meio de um mapa prático que conecta o que se espera ensinar <em>sobre</em> IA nas escolas com orientações para aprender <em>com</em> IA de forma responsável.</p>
+
+    <h3 class="modal-subtitulo">Para quem é</h3>
+    <p>Editores de materiais didáticos, designers instrucionais, coordenadores pedagógicos e autores que estão desenvolvendo conteúdo educacional sobre ou com IA. Também é útil para professores que queiram aprofundar seu repertório conceitual antes de planejar atividades em sala.</p>
+
+    <h3 class="modal-subtitulo">O que você vai encontrar</h3>
+    <p>O site está organizado em duas grandes seções:</p>
+    <p><strong>Aprender SOBRE IA</strong>: as aprendizagens sobre IA propostas pelo Ministério da Educação (MEC) para cada etapa da Educação Básica: EF - Anos Iniciais, EF - Anos Finais e Ensino Médio. Cada aprendizagem é cruzada com o <em>Marco Referencial de Competências em IA para Estudantes</em> da UNESCO, trazendo três camadas de detalhamento: objetivos curriculares específicos, abordagens pedagógicas sugeridas e exemplos de perguntas de avaliação — todos adequados ao nível de complexidade de cada etapa.</p>
+    <p><strong>Aprender COM IA</strong>: o framework de cocriação entre humano e IA proposto por Priscilla Silveira em <em>Educar com IA</em>, organizado em quatro dimensões (Produção Textual, Pensamento Analítico, Pensamento Criativo e Aprendizagem). Cada dimensão traz as ações que a IA pode apoiar e as premissas que preservam o protagonismo humano no processo.</p>
+
+    <h3 class="modal-subtitulo">Como usar</h3>
+    <p>Navegue livremente pelas seções e clique nos botões expansíveis dentro de cada card para aprofundar o tema.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

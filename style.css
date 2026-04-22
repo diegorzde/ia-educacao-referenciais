@@ -1,0 +1,585 @@
+/* ============================================
+   BASE CONCEITUAL — IA NA EDUCAÇÃO BÁSICA
+   Folha de estilos unificada
+   ============================================ */
+
+/* Reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background: #f2f2ed;
+  color: #222;
+}
+
+/* ============================================
+   NAVEGAÇÃO DE TOPO — SOBRE IA / COM IA
+   ============================================ */
+.topo {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.topo-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.topo-logo {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0C447C;
+  margin-right: auto;
+}
+
+.topo-sub {
+  font-size: 10px;
+  font-weight: normal;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  display: block;
+  margin-top: 2px;
+}
+
+.chave {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 18px;
+  border: 1.5px solid #378ADD;
+  background: #fff;
+  color: #185FA5;
+  cursor: pointer;
+  transition: all .15s;
+  font-family: inherit;
+  letter-spacing: .02em;
+}
+
+.chave:hover { background: #E6F1FB; }
+
+.chave.ativa {
+  background: #185FA5;
+  color: #fff;
+  border-color: #185FA5;
+}
+
+/* Ícone Sobre na barra de topo */
+.btn-sobre {
+  font-size: 18px;
+  font-weight: bold;
+  width: 32px;
+  height: 32px;
+  border: 1.5px solid #ccc;
+  background: #fff;
+  color: #888;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .15s;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.btn-sobre:hover {
+  border-color: #378ADD;
+  color: #185FA5;
+  background: #E6F1FB;
+}
+
+/* ============================================
+   MODAL SOBRE
+   ============================================ */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.modal.aberto { display: flex; align-items: flex-start; justify-content: center; }
+
+.modal-conteudo {
+  background: #fff;
+  max-width: 680px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 32px 36px;
+  position: relative;
+  margin: 40px auto;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+.modal-fechar {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #999;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px 10px;
+  font-family: inherit;
+}
+
+.modal-fechar:hover { color: #222; }
+
+.modal-titulo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0C447C;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #E6F1FB;
+}
+
+.modal-subtitulo {
+  font-size: 13px;
+  font-weight: bold;
+  color: #185FA5;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.modal-conteudo p {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.modal-conteudo em { font-style: italic; color: #555; }
+.modal-conteudo strong { color: #0C447C; }
+
+/* ============================================
+   SELETOR DE ETAPA (SOBRE IA)
+   ============================================ */
+.etapas-seletor {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px 16px 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn-etapa {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 7px 14px;
+  border: 1px solid #B5D4F4;
+  background: #fff;
+  color: #185FA5;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .15s;
+  font-family: inherit;
+}
+
+.btn-etapa:hover { background: #E6F1FB; }
+.btn-etapa.ativa { background: #185FA5; color: #fff; border-color: #185FA5; }
+
+/* ============================================
+   SEÇÕES (SOBRE IA / COM IA)
+   ============================================ */
+.secao { display: none; }
+.secao.ativa { display: block; }
+
+.subsecao { display: none; }
+.subsecao.ativa { display: block; }
+
+/* ============================================
+   PÁGINA E CABEÇALHO DE ETAPA
+   ============================================ */
+.pagina {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.pagina-header {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 0;
+}
+
+.pagina-header .etapa-header { margin-bottom: 0; }
+
+.etapa-header {
+  background: #E6F1FB;
+  border-left: 5px solid #378ADD;
+  padding: 16px 24px;
+  margin-bottom: 24px;
+}
+
+.etapa-titulo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0C447C;
+}
+
+.etapa-fonte {
+  font-size: 12px;
+  color: #555;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+.etapa-fonte strong { color: #0C447C; }
+.etapa-fonte em { font-style: italic; }
+
+.cluster { margin-bottom: 28px; }
+
+/* ============================================
+   BLOCO DE APRENDIZAGEM (SOBRE IA) — 2 colunas
+   ============================================ */
+.bloco {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.bloco-topo {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  border-bottom: 1px solid #eee;
+}
+
+.coluna-aprendizagem {
+  padding: 20px 18px;
+  background: #F6FAFE;
+  border-right: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aprendizagem-nome {
+  font-size: 13px;
+  font-weight: bold;
+  color: #888;
+  line-height: 1.4;
+}
+
+.coluna-direita {
+  padding: 20px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.abordagem-label {
+  font-size: 10px;
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 6px;
+}
+
+.abordagem-texto {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.45;
+  color: #222;
+}
+
+/* ============================================
+   BOTÕES DE PAINÉIS (UNESCO / Framework)
+   ============================================ */
+.botoes {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 16px;
+  background: #fafaf8;
+  flex-wrap: wrap;
+}
+
+.unesco-label {
+  font-size: 10px;
+  font-weight: bold;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-right: 2px;
+}
+
+.btn {
+  font-size: 11px;
+  font-weight: bold;
+  padding: 4px 11px;
+  border-radius: 20px;
+  border: 1px solid;
+  cursor: pointer;
+  background: #fff;
+  transition: background .15s;
+  line-height: 1.6;
+  font-family: inherit;
+}
+
+.btn-oc { color: #3C3489; border-color: #AFA9EC; }
+.btn-oc:hover { background: #EEEDFE; }
+
+.btn-metodo { color: #0F6E56; border-color: #5DCAA5; }
+.btn-metodo:hover { background: #E1F5EE; }
+
+.btn-aval { color: #854F0B; border-color: #EF9F27; }
+.btn-aval:hover { background: #FAEEDA; }
+
+.btn-premissa { color: #0F6E56; border-color: #5DCAA5; }
+.btn-premissa:hover { background: #E1F5EE; }
+
+/* ============================================
+   PAINÉIS EXPANSÍVEIS
+   ============================================ */
+.painel {
+  display: none;
+  padding: 14px 16px;
+  border-top: 1px solid #eee;
+}
+
+.painel.aberto { display: block; }
+
+.painel-titulo {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin-bottom: 10px;
+}
+
+.painel-oc .painel-titulo { color: #3C3489; }
+.painel-metodo .painel-titulo { color: #0F6E56; }
+.painel-aval .painel-titulo { color: #854F0B; }
+
+/* ============================================
+   ITENS DENTRO DE PAINÉIS (OCs, Métodos, Avaliações)
+   ============================================ */
+.oc-item {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.oc-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+.oc-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 5px;
+}
+
+.oc-codigo {
+  font-size: 10px;
+  font-weight: bold;
+  background: #EEEDFE;
+  color: #3C3489;
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+
+.nivel-tag {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+
+.n1 { background: #EAF3DE; color: #27500A; }
+.n2 { background: #E6F1FB; color: #0C447C; }
+.n3 { background: #FCEBEB; color: #791F1F; }
+
+.oc-texto { font-size: 12px; line-height: 1.6; color: #333; }
+
+.metodo-item {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.metodo-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+.metodo-titulo { font-size: 12px; font-weight: bold; color: #0F6E56; margin-bottom: 4px; }
+.metodo-desc { font-size: 12px; line-height: 1.6; color: #444; }
+
+.nivel-bloco {
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.nivel-bloco:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+.aval-nome { font-size: 11px; font-weight: bold; color: #854F0B; margin-bottom: 8px; }
+
+.aval-item {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #333;
+  padding: 5px 0 5px 12px;
+  border-left: 3px solid #FAC775;
+  margin-bottom: 4px;
+}
+.aval-item:last-child { margin-bottom: 0; }
+
+.aval-codigo { font-size: 10px; color: #bbb; margin-right: 5px; }
+
+.sem-oc {
+  font-size: 12px;
+  color: #aaa;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* ============================================
+   CARDS DE DIMENSÃO (COM IA)
+   ============================================ */
+.coluna-dimensao {
+  padding: 20px 18px;
+  background: #F6FAFE;
+  border-right: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dim-nome {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0C447C;
+  line-height: 1.25;
+}
+
+.coluna-acoes { padding: 16px 18px; }
+
+.acoes-label {
+  font-size: 10px;
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 8px;
+}
+
+.acoes-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.acao-chip {
+  font-size: 12px;
+  font-weight: bold;
+  color: #3C3489;
+  background: #EEEDFE;
+  padding: 4px 10px;
+  border-radius: 3px;
+  line-height: 1.4;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .15s;
+  font-family: inherit;
+}
+.acao-chip:hover { background: #DDD9FC; border-color: #AFA9EC; }
+.acao-chip.ativo { background: #3C3489; color: #fff; border-color: #3C3489; }
+
+.acao-descricao {
+  display: none;
+  margin-top: 12px;
+  padding: 12px 14px;
+  background: #F9F8FE;
+  border-left: 3px solid #AFA9EC;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 1.65;
+  color: #333;
+}
+.acao-descricao.aberto { display: block; }
+.acao-descricao strong { color: #3C3489; }
+
+.premissa-item {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.premissa-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+.premissa-titulo { font-size: 12px; font-weight: bold; color: #0F6E56; margin-bottom: 8px; }
+
+.premissa-desc ul { list-style: none; padding: 0; margin: 0; }
+.premissa-desc li {
+  font-size: 12px;
+  line-height: 1.65;
+  color: #444;
+  padding: 4px 0 4px 14px;
+  position: relative;
+}
+.premissa-desc li::before {
+  content: "•";
+  color: #5DCAA5;
+  font-weight: bold;
+  position: absolute;
+  left: 4px;
+}
+
+/* ============================================
+   RODAPÉ
+   ============================================ */
+.rodape {
+  background: #fff;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  padding: 20px 16px;
+}
+
+.rodape-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 11px;
+  color: #888;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.rodape-inner a {
+  color: #185FA5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.rodape-inner a:hover { text-decoration: underline; }
+
+/* ============================================
+   RESPONSIVO
+   ============================================ */
+@media (max-width: 560px) {
+  .bloco-topo { grid-template-columns: 1fr; }
+  .coluna-aprendizagem,
+  .coluna-dimensao {
+    border-right: none;
+    border-bottom: 1px solid #eee;
+  }
+}
